@@ -1,0 +1,19 @@
+[build]
+builder = "NIXPACKS"
+
+[[services]]
+id = "backend"
+source = "./backend"
+buildCommand = "npm install"
+startCommand = "npm start"
+
+[[services]]
+id = "frontend"
+source = "./frontend"
+buildCommand = "npm install && npm run build"
+startCommand = "npm run preview"
+staticUrl = "/"
+
+[[databases]]
+id = "postgres"
+database = "wanderlust"
