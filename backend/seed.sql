@@ -1,0 +1,8455 @@
+BEGIN;
+
+
+INSERT INTO users (name, email, password, role)
+VALUES ('Vihaan Smith','vihaan.smith3973@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Davis','rohan.davis4092@mail.com','$2a$10$hashedpassword','user'),
+('Ananya Wilson','ananya.wilson1906@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Sharma','rohan.sharma8276@mail.com','$2a$10$hashedpassword','user'),
+('Aarav Davis','aarav.davis9409@mail.com','$2a$10$hashedpassword','user'),
+('Amit Gupta','amit.gupta3387@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Gupta','rohan.gupta5415@mail.com','$2a$10$hashedpassword','user'),
+('Isabella Kumar','isabella.kumar2539@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Das','olivia.das3771@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Roy','vihaan.roy336@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Davis','rahul.davis8823@mail.com','$2a$10$hashedpassword','user'),
+('Sara Miller','sara.miller4241@mail.com','$2a$10$hashedpassword','user'),
+('Sara Mehta','sara.mehta5635@mail.com','$2a$10$hashedpassword','user'),
+('Isabella Das','isabella.das2762@mail.com','$2a$10$hashedpassword','user'),
+('Neha Roy','neha.roy6702@mail.com','$2a$10$hashedpassword','user'),
+('Ananya Verma','ananya.verma1682@mail.com','$2a$10$hashedpassword','user'),
+('Meera Verma','meera.verma1535@mail.com','$2a$10$hashedpassword','user'),
+('Sara Roy','sara.roy947@mail.com','$2a$10$hashedpassword','user'),
+('Diya Johnson','diya.johnson8863@mail.com','$2a$10$hashedpassword','user'),
+('Ananya Das','ananya.das2715@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Singh','vihaan.singh819@mail.com','$2a$10$hashedpassword','user'),
+('Neha Mehta','neha.mehta5999@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Garcia','olivia.garcia8497@mail.com','$2a$10$hashedpassword','user'),
+('Emma Patel','emma.patel6905@mail.com','$2a$10$hashedpassword','user'),
+('Neha Roy','neha.roy1039@mail.com','$2a$10$hashedpassword','admin'),
+('Amit Wilson','amit.wilson1773@mail.com','$2a$10$hashedpassword','user'),
+('Aditya Gupta','aditya.gupta6748@mail.com','$2a$10$hashedpassword','user'),
+('Meera Johnson','meera.johnson8001@mail.com','$2a$10$hashedpassword','user'),
+('Michael Sharma','michael.sharma7454@mail.com','$2a$10$hashedpassword','user'),
+('Amit Das','amit.das333@mail.com','$2a$10$hashedpassword','user'),
+('Diya Kapoor','diya.kapoor3172@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Singh','rohan.singh7459@mail.com','$2a$10$hashedpassword','user'),
+('Priya Sharma','priya.sharma1677@mail.com','$2a$10$hashedpassword','user'),
+('William Sharma','william.sharma6009@mail.com','$2a$10$hashedpassword','user'),
+('Meera Brown','meera.brown4976@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Smith','olivia.smith1874@mail.com','$2a$10$hashedpassword','user'),
+('Arjun Johnson','arjun.johnson3954@mail.com','$2a$10$hashedpassword','user'),
+('Vikram Smith','vikram.smith2472@mail.com','$2a$10$hashedpassword','user'),
+('Diya Brown','diya.brown7450@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Miller','olivia.miller6554@mail.com','$2a$10$hashedpassword','admin'),
+('Diya Davis','diya.davis7@mail.com','$2a$10$hashedpassword','user'),
+('Priya Roy','priya.roy9645@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Taylor','olivia.taylor3905@mail.com','$2a$10$hashedpassword','user'),
+('Pooja Smith','pooja.smith8957@mail.com','$2a$10$hashedpassword','user'),
+('Lucas Smith','lucas.smith7522@mail.com','$2a$10$hashedpassword','user'),
+('Amit Smith','amit.smith9245@mail.com','$2a$10$hashedpassword','user'),
+('John Mehta','john.mehta5991@mail.com','$2a$10$hashedpassword','user'),
+('Karan Johnson','karan.johnson9692@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Johnson','rahul.johnson1047@mail.com','$2a$10$hashedpassword','user'),
+('Neha Mehta','neha.mehta1597@mail.com','$2a$10$hashedpassword','user'),
+('Karan Kapoor','karan.kapoor6324@mail.com','$2a$10$hashedpassword','admin'),
+('Vikram Das','vikram.das8794@mail.com','$2a$10$hashedpassword','user'),
+('Neha Davis','neha.davis5187@mail.com','$2a$10$hashedpassword','user'),
+('Kavya Verma','kavya.verma1412@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Kapoor','rohan.kapoor2641@mail.com','$2a$10$hashedpassword','user'),
+('Vikram Smith','vikram.smith6956@mail.com','$2a$10$hashedpassword','user'),
+('Isabella Patel','isabella.patel4671@mail.com','$2a$10$hashedpassword','admin'),
+('Michael Smith','michael.smith7332@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Taylor','olivia.taylor8021@mail.com','$2a$10$hashedpassword','user'),
+('Neha Singh','neha.singh5321@mail.com','$2a$10$hashedpassword','user'),
+('William Smith','william.smith7876@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Gupta','rahul.gupta3194@mail.com','$2a$10$hashedpassword','user'),
+('Michael Bose','michael.bose3234@mail.com','$2a$10$hashedpassword','user'),
+('Aditya Wilson','aditya.wilson1227@mail.com','$2a$10$hashedpassword','user'),
+('Ananya Kumar','ananya.kumar1022@mail.com','$2a$10$hashedpassword','user'),
+('Aditya Kapoor','aditya.kapoor8009@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Gupta','rohan.gupta5776@mail.com','$2a$10$hashedpassword','user'),
+('Michael Smith','michael.smith9933@mail.com','$2a$10$hashedpassword','user'),
+('Diya Singh','diya.singh6774@mail.com','$2a$10$hashedpassword','user'),
+('Aarav Sharma','aarav.sharma1817@mail.com','$2a$10$hashedpassword','user'),
+('Sara Roy','sara.roy8050@mail.com','$2a$10$hashedpassword','user'),
+('Sophia Miller','sophia.miller5698@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Wilson','vihaan.wilson2533@mail.com','$2a$10$hashedpassword','user'),
+('Sneha Kapoor','sneha.kapoor7768@mail.com','$2a$10$hashedpassword','user'),
+('Daniel Mehta','daniel.mehta672@mail.com','$2a$10$hashedpassword','user'),
+('Priya Taylor','priya.taylor3957@mail.com','$2a$10$hashedpassword','user'),
+('Isabella Patel','isabella.patel4248@mail.com','$2a$10$hashedpassword','user'),
+('Kavya Wilson','kavya.wilson4049@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Kapoor','rohan.kapoor4717@mail.com','$2a$10$hashedpassword','user'),
+('Michael Gupta','michael.gupta9177@mail.com','$2a$10$hashedpassword','user'),
+('Aarav Johnson','aarav.johnson4559@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Das','olivia.das6682@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Brown','olivia.brown1399@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Taylor','olivia.taylor2273@mail.com','$2a$10$hashedpassword','admin'),
+('William Taylor','william.taylor8203@mail.com','$2a$10$hashedpassword','user'),
+('Michael Taylor','michael.taylor1757@mail.com','$2a$10$hashedpassword','user'),
+('Aditya Davis','aditya.davis6757@mail.com','$2a$10$hashedpassword','user'),
+('Emma Wilson','emma.wilson7139@mail.com','$2a$10$hashedpassword','user'),
+('Sneha Wilson','sneha.wilson8250@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Gupta','vihaan.gupta9915@mail.com','$2a$10$hashedpassword','user'),
+('Vikram Smith','vikram.smith3815@mail.com','$2a$10$hashedpassword','user'),
+('Daniel Johnson','daniel.johnson1974@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Smith','rahul.smith5414@mail.com','$2a$10$hashedpassword','user'),
+('Michael Mehta','michael.mehta2217@mail.com','$2a$10$hashedpassword','user'),
+('William Davis','william.davis5902@mail.com','$2a$10$hashedpassword','user'),
+('Karan Taylor','karan.taylor9203@mail.com','$2a$10$hashedpassword','user'),
+('Emma Brown','emma.brown943@mail.com','$2a$10$hashedpassword','user'),
+('Neha Singh','neha.singh8222@mail.com','$2a$10$hashedpassword','user'),
+('William Gupta','william.gupta2052@mail.com','$2a$10$hashedpassword','user'),
+('Karan Brown','karan.brown9546@mail.com','$2a$10$hashedpassword','user'),
+('Neha Verma','neha.verma9440@mail.com','$2a$10$hashedpassword','user'),
+('Karan Johnson','karan.johnson2737@mail.com','$2a$10$hashedpassword','user'),
+('Daniel Davis','daniel.davis2263@mail.com','$2a$10$hashedpassword','user'),
+('Kabir Patel','kabir.patel1175@mail.com','$2a$10$hashedpassword','user'),
+('Kavya Mehta','kavya.mehta1556@mail.com','$2a$10$hashedpassword','user'),
+('William Miller','william.miller414@mail.com','$2a$10$hashedpassword','user'),
+('Isabella Johnson','isabella.johnson2020@mail.com','$2a$10$hashedpassword','admin'),
+('Isabella Davis','isabella.davis7976@mail.com','$2a$10$hashedpassword','admin'),
+('Aditya Johnson','aditya.johnson2776@mail.com','$2a$10$hashedpassword','user'),
+('Daniel Mehta','daniel.mehta3506@mail.com','$2a$10$hashedpassword','user'),
+('Karan Brown','karan.brown8952@mail.com','$2a$10$hashedpassword','user'),
+('William Patel','william.patel2952@mail.com','$2a$10$hashedpassword','user'),
+('Aarav Roy','aarav.roy7776@mail.com','$2a$10$hashedpassword','user'),
+('Arjun Sharma','arjun.sharma1228@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Verma','olivia.verma5799@mail.com','$2a$10$hashedpassword','user'),
+('Olivia Johnson','olivia.johnson4949@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Sharma','vihaan.sharma7352@mail.com','$2a$10$hashedpassword','user'),
+('Lucas Das','lucas.das4980@mail.com','$2a$10$hashedpassword','user'),
+('John Miller','john.miller54@mail.com','$2a$10$hashedpassword','user'),
+('Diya Kapoor','diya.kapoor9921@mail.com','$2a$10$hashedpassword','user'),
+('John Kumar','john.kumar3905@mail.com','$2a$10$hashedpassword','user'),
+('Emma Patel','emma.patel1335@mail.com','$2a$10$hashedpassword','user'),
+('Meera Singh','meera.singh30@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Wilson','vihaan.wilson4752@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Mehta','rahul.mehta7153@mail.com','$2a$10$hashedpassword','user'),
+('Priya Johnson','priya.johnson1030@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Brown','rohan.brown8447@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Das','vihaan.das5617@mail.com','$2a$10$hashedpassword','user'),
+('Arjun Taylor','arjun.taylor9671@mail.com','$2a$10$hashedpassword','user'),
+('Vikram Wilson','vikram.wilson4669@mail.com','$2a$10$hashedpassword','user'),
+('Diya Wilson','diya.wilson688@mail.com','$2a$10$hashedpassword','user'),
+('John Brown','john.brown7430@mail.com','$2a$10$hashedpassword','user'),
+('Ananya Bose','ananya.bose8703@mail.com','$2a$10$hashedpassword','user'),
+('Sara Sharma','sara.sharma6490@mail.com','$2a$10$hashedpassword','user'),
+('Sara Miller','sara.miller6180@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Gupta','rahul.gupta8950@mail.com','$2a$10$hashedpassword','admin'),
+('Sneha Davis','sneha.davis2200@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Taylor','vihaan.taylor7684@mail.com','$2a$10$hashedpassword','admin'),
+('Priya Kumar','priya.kumar8252@mail.com','$2a$10$hashedpassword','user'),
+('Kabir Gupta','kabir.gupta1228@mail.com','$2a$10$hashedpassword','user'),
+('Neha Verma','neha.verma142@mail.com','$2a$10$hashedpassword','user'),
+('Kabir Kapoor','kabir.kapoor4979@mail.com','$2a$10$hashedpassword','user'),
+('Isabella Das','isabella.das3691@mail.com','$2a$10$hashedpassword','user'),
+('William Sharma','william.sharma6579@mail.com','$2a$10$hashedpassword','user'),
+('Kavya Miller','kavya.miller7595@mail.com','$2a$10$hashedpassword','user'),
+('Kabir Johnson','kabir.johnson4636@mail.com','$2a$10$hashedpassword','user'),
+('Isabella Brown','isabella.brown3508@mail.com','$2a$10$hashedpassword','user'),
+('William Mehta','william.mehta946@mail.com','$2a$10$hashedpassword','user'),
+('Isabella Patel','isabella.patel1654@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Kapoor','rohan.kapoor8675@mail.com','$2a$10$hashedpassword','user'),
+('Sara Sharma','sara.sharma8825@mail.com','$2a$10$hashedpassword','user'),
+('Emma Singh','emma.singh6734@mail.com','$2a$10$hashedpassword','user'),
+('Arjun Singh','arjun.singh4687@mail.com','$2a$10$hashedpassword','user'),
+('Pooja Garcia','pooja.garcia375@mail.com','$2a$10$hashedpassword','user'),
+('Sara Singh','sara.singh2320@mail.com','$2a$10$hashedpassword','user'),
+('Aarav Kapoor','aarav.kapoor2064@mail.com','$2a$10$hashedpassword','user'),
+('Rohan Roy','rohan.roy5992@mail.com','$2a$10$hashedpassword','user'),
+('Arjun Johnson','arjun.johnson3895@mail.com','$2a$10$hashedpassword','user'),
+('Sophia Das','sophia.das8531@mail.com','$2a$10$hashedpassword','user'),
+('Amit Johnson','amit.johnson2051@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Smith','rahul.smith7426@mail.com','$2a$10$hashedpassword','user'),
+('William Singh','william.singh9784@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Taylor','rahul.taylor8424@mail.com','$2a$10$hashedpassword','user'),
+('Ananya Miller','ananya.miller1004@mail.com','$2a$10$hashedpassword','user'),
+('Meera Miller','meera.miller1875@mail.com','$2a$10$hashedpassword','user'),
+('Aditya Sharma','aditya.sharma5711@mail.com','$2a$10$hashedpassword','user'),
+('Arjun Das','arjun.das418@mail.com','$2a$10$hashedpassword','user'),
+('Ananya Verma','ananya.verma7727@mail.com','$2a$10$hashedpassword','user'),
+('Neha Das','neha.das2903@mail.com','$2a$10$hashedpassword','user'),
+('Diya Sharma','diya.sharma3043@mail.com','$2a$10$hashedpassword','user'),
+('Lucas Miller','lucas.miller4674@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Johnson','vihaan.johnson4429@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Smith','rahul.smith5139@mail.com','$2a$10$hashedpassword','user'),
+('Priya Miller','priya.miller1548@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Brown','vihaan.brown7529@mail.com','$2a$10$hashedpassword','user'),
+('Arjun Wilson','arjun.wilson7531@mail.com','$2a$10$hashedpassword','user'),
+('William Gupta','william.gupta5492@mail.com','$2a$10$hashedpassword','user'),
+('John Davis','john.davis5669@mail.com','$2a$10$hashedpassword','user'),
+('Ananya Das','ananya.das8631@mail.com','$2a$10$hashedpassword','admin'),
+('Ananya Gupta','ananya.gupta6986@mail.com','$2a$10$hashedpassword','user'),
+('Vikram Bose','vikram.bose3023@mail.com','$2a$10$hashedpassword','admin'),
+('Vihaan Verma','vihaan.verma1514@mail.com','$2a$10$hashedpassword','user'),
+('Lucas Patel','lucas.patel4783@mail.com','$2a$10$hashedpassword','user'),
+('Vihaan Smith','vihaan.smith8083@mail.com','$2a$10$hashedpassword','user'),
+('Sophia Johnson','sophia.johnson2800@mail.com','$2a$10$hashedpassword','admin'),
+('Rohan Das','rohan.das284@mail.com','$2a$10$hashedpassword','user'),
+('Neha Wilson','neha.wilson7610@mail.com','$2a$10$hashedpassword','user'),
+('Rahul Gupta','rahul.gupta9275@mail.com','$2a$10$hashedpassword','user'),
+('Emma Bose','emma.bose7361@mail.com','$2a$10$hashedpassword','user'),
+('Kabir Patel','kabir.patel8450@mail.com','$2a$10$hashedpassword','user'),
+('Michael Singh','michael.singh7475@mail.com','$2a$10$hashedpassword','user'),
+('John Davis','john.davis2290@mail.com','$2a$10$hashedpassword','user'),
+('Aarav Davis','aarav.davis303@mail.com','$2a$10$hashedpassword','user'),
+('Sneha Johnson','sneha.johnson8088@mail.com','$2a$10$hashedpassword','user'),
+('Vikram Gupta','vikram.gupta5701@mail.com','$2a$10$hashedpassword','user'),
+('Lucas Kumar','lucas.kumar6553@mail.com','$2a$10$hashedpassword','user'),
+('John Davis','john.davis9178@mail.com','$2a$10$hashedpassword','user'),
+('Pooja Wilson','pooja.wilson539@mail.com','$2a$10$hashedpassword','user'),
+('Vikram Miller','vikram.miller2612@mail.com','$2a$10$hashedpassword','user'),
+('Arjun Patel','arjun.patel3216@mail.com','$2a$10$hashedpassword','user');
+
+
+
+
+
+INSERT INTO services (title, type, location, price, description, image, availability)
+VALUES (
+    'SkyConnect to Rome',
+    'flight',
+    'Rome',
+    12792,
+    'Direct and connecting flights available to Rome.',
+    'https://th.bing.com/th/id/OIP.6SvWiPRDM273QkdC3vr3ggHaEo?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Bangkok Adventure Plan',
+    'package',
+    'Bangkok',
+    20194,
+    'Includes stay, transport and guided tours in Bangkok.',
+    'https://delightontour.com/album/product/large/3444ae8ab2750274a587859a76bd9e45.jpg',
+    true
+  ),
+(
+    'Sea Breeze Resort, Darjeeling',
+    'hotel',
+    'Darjeeling',
+    7713,
+    'Comfortable stay at Darjeeling with modern amenities.',
+    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/11/2d/1a/caption.jpg?w=900&h=-1&s=1',
+    true
+  ),
+(
+    'Urban Stay, Manali',
+    'hotel',
+    'Manali',
+    2242,
+    'Comfortable stay at Manali with modern amenities.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_efX1bTVRm6zcNyopTbnDmgURdtWD08-Riw&s',
+    true
+  ),
+(
+    'SkyConnect to Tokyo',
+    'flight',
+    'Tokyo',
+    16149,
+    'Direct and connecting flights available to Tokyo.',
+    'https://tse2.mm.bing.net/th/id/OIP.WrvaboxEUFV7AETTDiJBegHaEV?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'JetStream to Bangkok',
+    'flight',
+    'Bangkok',
+    14731,
+    'Direct and connecting flights available to Bangkok.',
+    'https://tse1.mm.bing.net/th/id/OIP.EKvTrsLMb_YEt7Y-DZyuowHaEl?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Sea Breeze Resort, Maldives',
+    'hotel',
+    'Maldives',
+    1839,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeOVF71pgTIWCCCCDkpZq1lORRY9wb6sKeas9wlj4gvQ&s',
+    false
+  ),
+(
+    'Grand Residency, Kerala',
+    'hotel',
+    'Kerala',
+    4353,
+    'Comfortable stay at Kerala with modern amenities.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1uUcy1EWj5IvMQiTTSlafE19ogRCP9u3tuQ&s',
+    true
+  ),
+(
+    'JetStream to Maldives',
+    'flight',
+    'Maldives',
+    10906,
+    'Direct and connecting flights available to Maldives.',
+    'https://th.bing.com/th/id/OIP.WFC8meW3vtLe9rMFY3U8awHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Ladakh Adventure Plan',
+    'package',
+    'Ladakh',
+    39225,
+    'Includes stay, transport and guided tours in Ladakh.',
+    'https://tse3.mm.bing.net/th/id/OIP.Mk1SA8n30aVOJy7ShosB_AHaD8?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Goa Weekend Escape',
+    'package',
+    'Goa',
+    10182,
+    'Includes stay, transport and guided tours in Goa.',
+    'https://5.imimg.com/data5/SELLER/Default/2023/8/333121930/HU/KK/CT/144324864/mumbai-goa-tour-package-service-1000x1000.png',
+    true
+  ),
+(
+    'Jaipur Explorer Package',
+    'package',
+    'Jaipur',
+    26199,
+    'Includes stay, transport and guided tours in Jaipur.',
+    'https://experiencemyindia.com/wp-content/uploads/2025/10/Jaipur-Trip-Package.webp',
+    false
+  ),
+(
+    'JetStream to Istanbul',
+    'flight',
+    'Istanbul',
+    7682,
+    'Direct and connecting flights available to Istanbul.',
+    'https://th.bing.com/th/id/OIP.9PospdhhW1zB3N2crjhjlgHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Sydney Weekend Escape',
+    'package',
+    'Sydney',
+    44466,
+    'Includes stay, transport and guided tours in Sydney.',
+    'https://delightfultravel.com.au/wp-content/uploads/2020/04/4-Day-Sydney-Touring-Package.jpg',
+    false
+  ),
+(
+    'JetStream to Kerala',
+    'flight',
+    'Kerala',
+    15366,
+    'Direct and connecting flights available to Kerala.',
+    'https://aviationtoday.in/wp-content/uploads/2024/12/ATR_small_7-1024x574.jpg',
+    true
+  ),
+(
+    'Kerala Adventure Plan',
+    'package',
+    'Kerala',
+    48786,
+    'Includes stay, transport and guided tours in Kerala.',
+    'https://th.bing.com/th/id/OIP.DynQ3JpnpXMjqhaw4sTrqAHaEK?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Sea Breeze Resort, Istanbul',
+    'hotel',
+    'Istanbul',
+    8743,
+    'Comfortable stay at Istanbul with modern amenities.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqoP-OEmwlfvZTlBOG0qfK1Ixp1R1AD92ExA&s',
+    true
+  ),
+(
+    'Sydney Adventure Plan',
+    'package',
+    'Sydney',
+    21732,
+    'Includes stay, transport and guided tours in Sydney.',
+    'hhttps://workingholidayguide.com/wp-content/uploads/2022/11/sydney-arrival-package-group-tour-australia-group-friends-sydney-intro-arrival-package-australia-arrival-package-sydney-intro-package-for-working-holiday-visa-holder-work-and-travel-package-810x608.jpg',
+    true
+  ),
+(
+    'JetStream to Rishikesh',
+    'flight',
+    'Rishikesh',
+    16557,
+    'Direct and connecting flights available to Rishikesh.',
+    'https://tse2.mm.bing.net/th/id/OIP.ExPqN9frEVmrrYv8YwRXUQHaCo?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Udaipur Adventure Plan',
+    'package',
+    'Udaipur',
+    10989,
+    'Includes stay, transport and guided tours in Udaipur.',
+    'https://rajasthanx.com/wp-content/uploads/2023/08/Udaipur-Tour-Package-l-RajasthanX-1-1024x576.jpg',
+    true
+  ),
+(
+    'Urban Stay, Bangkok',
+    'hotel',
+    'Bangkok',
+    8565,
+    'Comfortable stay at Bangkok with modern amenities.',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVYAwA0MGai_QObiQACQT5EC887HIu5S4RHw&s',
+    false
+  ),
+(
+    'Urban Stay, Istanbul',
+    'hotel',
+    'Istanbul',
+    3871,
+    'Comfortable stay at Istanbul with modern amenities.',
+    'http://res.cloudinary.com/dghzubwry/image/upload/v1755973005/rujuz3dgwddxqt6q7m2q.avif',
+    true
+  ),
+(
+    'SkyConnect to Jaipur',
+    'flight',
+    'Jaipur',
+    6996,
+    'Direct and connecting flights available to Jaipur.',
+    'https://tse4.mm.bing.net/th/id/OIP.LkRUazbY1gfYGkIjKI0ADAHaEO?rs=1&pid=ImgDetMain&o=7&rm=36',
+    false
+  ),
+(
+    'Hilltop Retreat, Tokyo',
+    'hotel',
+    'Tokyo',
+    6997,
+    'Comfortable stay at Tokyo with modern amenities.',
+    'http://res.cloudinary.com/dghzubwry/image/upload/v1755973007/hxnm8rpkdkfdwq936ths.avif',
+    true
+  ),
+(
+    'Royal Suites, Kerala',
+    'hotel',
+    'Kerala',
+    1107,
+    'Comfortable stay at Kerala with modern amenities.',
+    'http://res.cloudinary.com/dghzubwry/image/upload/v1756545326/eelw662zzlu47vavcet8.avif',
+    true
+  ),
+(
+    'Bali Adventure Plan',
+    'package',
+    'Bali',
+    43380,
+    'Includes stay, transport and guided tours in Bali.',
+    'https://www.honeymoonbug.com/blog/wp-content/uploads/2024/04/Tour-Package.jpg',
+    true
+  ),
+(
+    'AirVista to Ladakh',
+    'flight',
+    'Ladakh',
+    12492,
+    'Direct and connecting flights available to Ladakh.',
+    'https://tse2.mm.bing.net/th/id/OIP.OQ7nkHG83EmcBejBiqWCBwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Manali Adventure Plan',
+    'package',
+    'Manali',
+    24420,
+    'Includes stay, transport and guided tours in Manali.',
+    'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee',
+    false
+  ),
+(
+    'Sea Breeze Resort, Rishikesh',
+    'hotel',
+    'Rishikesh',
+    9657,
+    'Comfortable stay at Rishikesh with modern amenities.',
+    'http://res.cloudinary.com/dghzubwry/image/upload/v1756545876/tltl2ucsgc1qfcjfz2sc.avif',
+    true
+  ),
+(
+    'Royal Suites, Manali',
+    'hotel',
+    'Manali',
+    2165,
+    'Comfortable stay at Manali with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759463127/cq4yk646zilqaep3yccd.avif',
+    true
+  ),
+(
+    'Paris Weekend Escape',
+    'package',
+    'Paris',
+    23206,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://tse2.mm.bing.net/th/id/OIP.e_laAui-a4sQrpb3Qj_HDgHaEO?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'FlyHigh Airways to Dubai',
+    'flight',
+    'Dubai',
+    10844,
+    'Direct and connecting flights available to Dubai.',
+    'https://th.bing.com/th/id/OIP.Wr2sO9HCFGDI6DrY_F5MRQHaFj?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Bangkok Explorer Package',
+    'package',
+    'Bangkok',
+    46336,
+    'Includes stay, transport and guided tours in Bangkok.',
+    'https://miro.medium.com/v2/resize:fit:800/1*zQoiRm71lyzBviqy1MK1Uw.jpeg',
+    true
+  ),
+(
+    'Kerala Weekend Escape',
+    'package',
+    'Kerala',
+    20192,
+    'Includes stay, transport and guided tours in Kerala.',
+    'https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png',
+    true
+  ),
+(
+    'JetStream to Sydney',
+    'flight',
+    'Sydney',
+    3707,
+    'Direct and connecting flights available to Sydney.',
+    'https://tse1.mm.bing.net/th/id/OIP.dVh7mdMD7f7LnQYkAAyXRAHaHC?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Hilltop Retreat, Jaipur',
+    'hotel',
+    'Jaipur',
+    2307,
+    'Comfortable stay at Jaipur with modern amenities.',
+    'http://res.cloudinary.com/dghzubwry/image/upload/v1759463074/z4ywdo73lloqfvc2u54f.avif',
+    false
+  ),
+(
+    'JetStream to Rome',
+    'flight',
+    'Rome',
+    7173,
+    'Direct and connecting flights available to Rome.',
+    'https://lh3.googleusercontent.com/BHizp4CG_3je0HNoDWuNzwO5cATbLyOaOVu1FgLeWqhrRwkRPyrXj3hz-UNesj0T63mNdFft8qbpbrAfY3xUA71h6dWhrFMyt6ASiSpG1ydC1ssEyZ2XaGe8HygiBvctOfMqWUcR_hZ9NKVLtaW6hpc',
+    true
+  ),
+(
+    'Urban Stay, Paris',
+    'hotel',
+    'Paris',
+    8047,
+    'Comfortable stay at Paris with modern amenities.',
+    'http://res.cloudinary.com/dghzubwry/image/upload/v1756620403/xsv4f3teyhqyanj4zuad.avif',
+    true
+  ),
+(
+    'Udaipur Explorer Package',
+    'package',
+    'Udaipur',
+    21002,
+    'Includes stay, transport and guided tours in Udaipur.',
+    'https://rajasthanadventures.com/wp-content/uploads/2024/05/udaipur-1024x1024.jpeg',
+    true
+  ),
+(
+    'Urban Stay, Maldives',
+    'hotel',
+    'Maldives',
+    4800,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1756620503/yokqelofp4cx7twxmy6n.avif',
+    true
+  ),
+(
+    'Manali Weekend Escape',
+    'package',
+    'Manali',
+    27850,
+    'Includes stay, transport and guided tours in Manali.',
+    'https://tse4.mm.bing.net/th/id/OIP.O04HO1Bd0WttkUbn19_uEwHaEo?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Istanbul Weekend Escape',
+    'package',
+    'Istanbul',
+    21178,
+    'Includes stay, transport and guided tours in Istanbul.',
+    'https://th.bing.com/th/id/OIP.mV16zJ1XpbBsEG8oOwm7GAHaEm?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Royal Suites, Rome',
+    'hotel',
+    'Rome',
+    2709,
+    'Comfortable stay at Rome with modern amenities.',
+    'http://res.cloudinary.com/dghzubwry/image/upload/v1756621020/lhvgzwqkfekattiq7ptn.avif',
+    true
+  ),
+(
+    'AirVista to Dubai',
+    'flight',
+    'Dubai',
+    15812,
+    'Direct and connecting flights available to Dubai.',
+    'https://th.bing.com/th/id/OIP.Wr2sO9HCFGDI6DrY_F5MRQHaFj?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'AirVista to Jaipur',
+    'flight',
+    'Jaipur',
+    14180,
+    'Direct and connecting flights available to Jaipur.',
+    'https://th.bing.com/th/id/OIP.fJFw4iHM3V8954VLs_KfvwAAAA?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Royal Suites, Udaipur',
+    'hotel',
+    'Udaipur',
+    7362,
+    'Comfortable stay at Udaipur with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1756620710/ihs2pmlkuoxf6qemzwsc.avif',
+    true
+  ),
+(
+    'Sydney Explorer Package',
+    'package',
+    'Sydney',
+    46643,
+    'Includes stay, transport and guided tours in Sydney.',
+    'https://cdn.sanity.io/images/g1i9e5jz/admin-ui-prod/4d1d5e5dd1076f94be40bb70df08179b784dfc16-3983x2985.jpg?w=1920&auto=format',
+    true
+  ),
+(
+    'Sea Breeze Resort, Rishikesh',
+    'hotel',
+    'Rishikesh',
+    6943,
+    'Comfortable stay at Rishikesh with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759462967/bseixdhzyqpkoxlgcfmw.avif',
+    true
+  ),
+(
+    'Paris Adventure Plan',
+    'package',
+    'Paris',
+    40815,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://www.gtholidays.in/wp-content/uploads/2022/05/Paris-Honeymoon-Package-Chennai.jpg',
+    true
+  ),
+(
+    'Grand Residency, Bangkok',
+    'hotel',
+    'Bangkok',
+    1881,
+    'Comfortable stay at Bangkok with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1756620287/k9xtsnnqbeyqzipfl25w.avif',
+    true
+  ),
+(
+    'Bali Weekend Escape',
+    'package',
+    'Bali',
+    49053,
+    'Includes stay, transport and guided tours in Bali.',
+    'https://3.bp.blogspot.com/-TzXYSoS56e8/WYU21yKNsxI/AAAAAAAAAFc/ZoxHBq13FAoYo8tq1fn_IJBoQ9RLR8cSgCLcBGAs/s1600/bali-tour-packages-day-tours-to-bali-tourist-attractions-bali-driver-hire-balitourify.jpg',
+    false
+  ),
+(
+    'Hilltop Retreat, Kerala',
+    'hotel',
+    'Kerala',
+    6426,
+    'Comfortable stay at Kerala with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759462907/t9bu9onwp9pstcfdjo1m.avif',
+    false
+  ),
+(
+    'Tokyo Adventure Plan',
+    'package',
+    'Tokyo',
+    28702,
+    'Includes stay, transport and guided tours in Tokyo.',
+    'https://mkjtravel.com/wp-content/uploads/2025/09/TOKYO-PACKAGE-2048x765.jpg',
+    false
+  ),
+(
+    'Rishikesh Weekend Escape',
+    'package',
+    'Rishikesh',
+    42433,
+    'Includes stay, transport and guided tours in Rishikesh.',
+    'https://th.bing.com/th/id/OIP.-SAPuWHGYBvQO-mXBXGf-AHaEo?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'SkyConnect to Manali',
+    'flight',
+    'Manali',
+    15033,
+    'Direct and connecting flights available to Manali.',
+    'https://tse3.mm.bing.net/th/id/OIP.WoW91zGTRWnveI_gUKKLBwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Ladakh Weekend Escape',
+    'package',
+    'Ladakh',
+    20483,
+    'Includes stay, transport and guided tours in Ladakh.',
+    'https://media1.thrillophilia.com/filestore/1i4kspcpe1ghd3f5v2aqrpn3sjb5_shutterstock_263762033.jpg',
+    false
+  ),
+(
+    'SkyConnect to Sydney',
+    'flight',
+    'Sydney',
+    12448,
+    'Direct and connecting flights available to Sydney.',
+    'https://tse4.mm.bing.net/th/id/OIP.4QpyEEyoUHlqWZ7E654DygHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'JetStream to Rome',
+    'flight',
+    'Rome',
+    10077,
+    'Direct and connecting flights available to Rome.',
+    'https://tse3.mm.bing.net/th/id/OIP.KDLR7NjHD2ylrIQMHytiHAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Sea Breeze Resort, Jaipur',
+    'hotel',
+    'Jaipur',
+    8489,
+    'Comfortable stay at Jaipur with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759462496/sjm9ecmuou5lnzrcdiqn.avif',
+    true
+  ),
+(
+    'Urban Stay, Darjeeling',
+    'hotel',
+    'Darjeeling',
+    8307,
+    'Comfortable stay at Darjeeling with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759464684/s7lypp0bfhrzofd1wk8n.avif',
+    true
+  ),
+(
+    'JetStream to Darjeeling',
+    'flight',
+    'Darjeeling',
+    12551,
+    'Direct and connecting flights available to Darjeeling.',
+    'https://images.unsplash.com/photo-1494412574643-ff74c6e90e41',
+    false
+  ),
+(
+    'AirVista to Bangkok',
+    'flight',
+    'Bangkok',
+    3240,
+    'Direct and connecting flights available to Bangkok.',
+    'https://th.bing.com/th/id/OIP.LDvsCSbD088Ry4wmqc-N5AHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'SkyConnect to Darjeeling',
+    'flight',
+    'Darjeeling',
+    12134,
+    'Direct and connecting flights available to Darjeeling.',
+    'https://tse4.mm.bing.net/th/id/OIP.XXhdMH0hXT44VME-g_WhcgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Sea Breeze Resort, Udaipur',
+    'hotel',
+    'Udaipur',
+    6823,
+    'Comfortable stay at Udaipur with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759464724/fclo6rgvrrbien79a3uo.avif',
+    false
+  ),
+(
+    'FlyHigh Airways to Istanbul',
+    'flight',
+    'Istanbul',
+    10050,
+    'Direct and connecting flights available to Istanbul.',
+    'https://static1.simpleflyingimages.com/wordpress/wp-content/uploads/2023/11/shutterstock_2371971389-1.jpg',
+    true
+  ),
+(
+    'Hilltop Retreat, Manali',
+    'hotel',
+    'Manali',
+    3960,
+    'Comfortable stay at Manali with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759464789/zsr3y54lqqpqg5wyhcpq.avif',
+    true
+  ),
+(
+    'Sea Breeze Resort, Rishikesh',
+    'hotel',
+    'Rishikesh',
+    7608,
+    'Comfortable stay at Rishikesh with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759464832/wc87jyldiy3jv3ntmp4y.avif',
+    true
+  ),
+(
+    'Hilltop Retreat, Rome',
+    'hotel',
+    'Rome',
+    3694,
+    'Comfortable stay at Rome with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759464861/wewowzyyi1afnwnzhqx5.avif',
+    false
+  ),
+(
+    'SkyConnect to Ladakh',
+    'flight',
+    'Ladakh',
+    4274,
+    'Direct and connecting flights available to Ladakh.',
+    'https://www.ladakh-tourism.net/wp-content/uploads/2021/04/airplane-1024x536.jpeg',
+    false
+  ),
+(
+    'JetStream to Manali',
+    'flight',
+    'Manali',
+    12554,
+    'Direct and connecting flights available to Manali.',
+    'https://tse3.mm.bing.net/th/id/OIP.HOE1xpF-S-Lk9imzTvEtUgHaEW?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Grand Residency, Kerala',
+    'hotel',
+    'Kerala',
+    7891,
+    'Comfortable stay at Kerala with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759470654/mhdixny4c4jz4lwkqylv.avif',
+    true
+  ),
+(
+    'Goa Explorer Package',
+    'package',
+    'Goa',
+    23824,
+    'Includes stay, transport and guided tours in Goa.',
+    'https://www.bestbus.in/admin/assets/library/banners/tour-package-banners/2-nights-3-days-goa-tour-package.jpg',
+    false
+  ),
+(
+    'JetStream to Sydney',
+    'flight',
+    'Sydney',
+    12579,
+    'Direct and connecting flights available to Sydney.',
+    'https://tse1.mm.bing.net/th/id/OIP.dVh7mdMD7f7LnQYkAAyXRAHaHC?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Urban Stay, Bali',
+    'hotel',
+    'Bali',
+    8356,
+    'Comfortable stay at Bali with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759470689/zyxqvygebni9s3d4dc4o.avif',
+    true
+  ),
+(
+    'FlyHigh Airways to Maldives',
+    'flight',
+    'Maldives',
+    18300,
+    'Direct and connecting flights available to Maldives.',
+    'https://th.bing.com/th/id/OIP.WFC8meW3vtLe9rMFY3U8awHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Maldives Holiday Bundle',
+    'package',
+    'Maldives',
+    39990,
+    'Includes stay, transport and guided tours in Maldives.',
+    'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee',
+    false
+  ),
+(
+    'Darjeeling Explorer Package',
+    'package',
+    'Darjeeling',
+    26449,
+    'Includes stay, transport and guided tours in Darjeeling.',
+    'https://tse4.mm.bing.net/th/id/OIP.0Q0uOAXdjNtWLXhsLF13ywHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Urban Stay, Maldives',
+    'hotel',
+    'Maldives',
+    6080,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759470736/pfpx3iaslsoaycgjhb9t.avif',
+    true
+  ),
+(
+    'Sea Breeze Resort, Sydney',
+    'hotel',
+    'Sydney',
+    7956,
+    'Comfortable stay at Sydney with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759470783/ackwjklmetkewdvbjvv5.avif',
+    true
+  ),
+(
+    'Bali Weekend Escape',
+    'package',
+    'Bali',
+    44547,
+    'Includes stay, transport and guided tours in Bali.',
+    'hhttps://i.ytimg.com/vi/X3WGN9PRMNo/maxresdefault.jpg',
+    true
+  ),
+(
+    'JetStream to Rome',
+    'flight',
+    'Rome',
+    3607,
+    'Direct and connecting flights available to Rome.',
+    'https://th.bing.com/th/id/OIP.lCrvTXYl267hSOYG0DzhyQHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Hilltop Retreat, Maldives',
+    'hotel',
+    'Maldives',
+    5978,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759470819/ma5n8qgftsqgfekstmcx.avif',
+    true
+  ),
+(
+    'Rishikesh Adventure Plan',
+    'package',
+    'Rishikesh',
+    37015,
+    'Includes stay, transport and guided tours in Rishikesh.',
+    'https://www.chardhamyatratrip.com/assets/uploads/product_photos/415.jpg',
+    false
+  ),
+(
+    'Hilltop Retreat, Manali',
+    'hotel',
+    'Manali',
+    6586,
+    'Comfortable stay at Manali with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759470866/qriwzecbmbp62iayj4yf.avif',
+    false
+  ),
+(
+    'AirVista to Paris',
+    'flight',
+    'Paris',
+    19494,
+    'Direct and connecting flights available to Paris.',
+    'https://parisexploration.com/wp-content/uploads/2025/09/Does-Air-France-fly-to-Paris.jpg',
+    true
+  ),
+(
+    'JetStream to Maldives',
+    'flight',
+    'Maldives',
+    9077,
+    'Direct and connecting flights available to Maldives.',
+    'https://th.bing.com/th/id/OIP.WFC8meW3vtLe9rMFY3U8awHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Royal Suites, Darjeeling',
+    'hotel',
+    'Darjeeling',
+    9274,
+    'Comfortable stay at Darjeeling with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759470902/x3zqsioaffpaghxuhdl1.avif',
+    false
+  ),
+(
+    'Sea Breeze Resort, Paris',
+    'hotel',
+    'Paris',
+    2053,
+    'Comfortable stay at Paris with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759470944/cr7kfsbg8xnmck8ukly4.avif',
+    true
+  ),
+(
+    'Royal Suites, Istanbul',
+    'hotel',
+    'Istanbul',
+    4198,
+    'Comfortable stay at Istanbul with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759470988/i2x0gsltjlscfdr5kjha.avif',
+    false
+  ),
+(
+    'SkyConnect to Sydney',
+    'flight',
+    'Sydney',
+    9981,
+    'Direct and connecting flights available to Sydney.',
+    'https://tse4.mm.bing.net/th/id/OIP.4QpyEEyoUHlqWZ7E654DygHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Bangkok Holiday Bundle',
+    'package',
+    'Bangkok',
+    13932,
+    'Includes stay, transport and guided tours in Bangkok.',
+    'https://www.spinonholidays.com/wp-content/uploads/2023/07/Bangkok_11zon.webp',
+    true
+  ),
+(
+    'Urban Stay, Rome',
+    'hotel',
+    'Rome',
+    1477,
+    'Comfortable stay at Rome with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759471034/ws0x6dosvfzfid5ybpai.avif',
+    true
+  ),
+(
+    'Hilltop Retreat, Maldives',
+    'hotel',
+    'Maldives',
+    3275,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759471078/obmjad6vn7vejqehaof9.avif',
+    false
+  ),
+(
+    'Paris Explorer Package',
+    'package',
+    'Paris',
+    10193,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://media1.thrillophilia.com/filestore/0jzgw845ssxdfhjstxdbru9bylhv_paris%205.png?w=1440&dpr=2',
+    true
+  ),
+(
+    'SkyConnect to Tokyo',
+    'flight',
+    'Tokyo',
+    3187,
+    'Direct and connecting flights available to Tokyo.',
+    'https://tse4.mm.bing.net/th/id/OIP.xatKgNoKzYnB3ZbyWERDegHaE7?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Urban Stay, Maldives',
+    'hotel',
+    'Maldives',
+    9333,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759481181/uynuamqxbkxe5drxcjwd.avif',
+    true
+  ),
+(
+    'AirVista to Kerala',
+    'flight',
+    'Kerala',
+    6069,
+    'Direct and connecting flights available to Kerala.',
+    'https://matlabinews.com/wp-content/uploads/2025/01/image-10.png',
+    false
+  ),
+(
+    'JetStream to Rishikesh',
+    'flight',
+    'Rishikesh',
+    4179,
+    'Direct and connecting flights available to Rishikesh.',
+    'https://rishikeshdaytour.com/blog/wp-content/uploads/2024/06/Flight-to-Rishikesh-India.jpg',
+    true
+  ),
+(
+    'JetStream to Goa',
+    'flight',
+    'Goa',
+    10473,
+    'Direct and connecting flights available to Goa.',
+    'https://parisexploration.com/wp-content/uploads/2025/09/Does-Air-France-fly-to-Paris.jpg5',
+    false
+  ),
+(
+    'Istanbul Weekend Escape',
+    'package',
+    'Istanbul',
+    30454,
+    'Includes stay, transport and guided tours in Istanbul.',
+    'https://www.holidify.com/images/cmsuploads/compressed/shutterstock1913292727_20230529134646.jpg',
+    true
+  ),
+(
+    'Istanbul Adventure Plan',
+    'package',
+    'Istanbul',
+    14745,
+    'Includes stay, transport and guided tours in Istanbul.',
+    'hhttps://tse3.mm.bing.net/th/id/OIP.U4BmWwkzKWAa7B1ygfGzswHaE2?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Grand Residency, Manali',
+    'hotel',
+    'Manali',
+    1248,
+    'Comfortable stay at Manali with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759481271/gocprfi8ormhmhyinusa.avif',
+    true
+  ),
+(
+    'Bali Explorer Package',
+    'package',
+    'Bali',
+    29377,
+    'Includes stay, transport and guided tours in Bali.',
+    'https://balicustomtour.com/wp-content/uploads/2021/09/BALI-PACKAGES.jpg',
+    true
+  ),
+(
+    'Royal Suites, Dubai',
+    'hotel',
+    'Dubai',
+    6365,
+    'Comfortable stay at Dubai with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759481413/nshb263unnpa1rznq1gc.avif',
+    false
+  ),
+(
+    'FlyHigh Airways to Maldives',
+    'flight',
+    'Maldives',
+    8946,
+    'Direct and connecting flights available to Maldives.',
+    'https://th.bing.com/th/id/OIP.WFC8meW3vtLe9rMFY3U8awHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Sea Breeze Resort, Sydney',
+    'hotel',
+    'Sydney',
+    6509,
+    'Comfortable stay at Sydney with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759481465/kblx3aawdzntetcpsq8t.avif',
+    true
+  ),
+(
+    'JetStream to Bangkok',
+    'flight',
+    'Bangkok',
+    5316,
+    'Direct and connecting flights available to Bangkok.',
+    'https://th.bing.com/th/id/OIP.LDvsCSbD088Ry4wmqc-N5AHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'SkyConnect to Maldives',
+    'flight',
+    'Maldives',
+    8029,
+    'Direct and connecting flights available to Maldives.',
+    'https://vacationtomaldives.com/wp-content/uploads/maldives-flights-768x433.jpg',
+    false
+  ),
+(
+    'Maldives Weekend Escape',
+    'package',
+    'Maldives',
+    14769,
+    'Includes stay, transport and guided tours in Maldives.',
+    'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1',
+    true
+  ),
+(
+    'Goa Weekend Escape',
+    'package',
+    'Goa',
+    38598,
+    'Includes stay, transport and guided tours in Goa.',
+    'https://5.imimg.com/data5/SELLER/Default/2023/3/293385576/PM/QK/OR/30774301/goa-tour-package-services-1000x1000.jpg',
+    false
+  ),
+(
+    'Maldives Holiday Bundle',
+    'package',
+    'Maldives',
+    27861,
+    'Includes stay, transport and guided tours in Maldives.',
+    'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800',
+    true
+  ),
+(
+    'Manali Explorer Package',
+    'package',
+    'Manali',
+    46657,
+    'Includes stay, transport and guided tours in Manali.',
+    'https://travelbea.in/Manali-tour-package/images/Best-Time-to-Visit-Kullu-Manali.webp',
+    true
+  ),
+(
+    'FlyHigh Airways to Rishikesh',
+    'flight',
+    'Rishikesh',
+    13749,
+    'Direct and connecting flights available to Rishikesh.',
+    'https://th.bing.com/th/id/OIP.w9TKyvme-Tl9W_leMSxswAHaB2?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Kerala Explorer Package',
+    'package',
+    'Kerala',
+    47144,
+    'Includes stay, transport and guided tours in Kerala.',
+    'https://www.tripplannersindia.com/assets/images/page/Kerala_Houseboat_Packages_-_1_Night_2_Days_in_Alleppey.webp',
+    false
+  ),
+(
+    'Maldives Holiday Bundle',
+    'package',
+    'Maldives',
+    35628,
+    'Includes stay, transport and guided tours in Maldives.',
+    'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1',
+    true
+  ),
+(
+    'AirVista to Bangkok',
+    'flight',
+    'Bangkok',
+    16676,
+    'Direct and connecting flights available to Bangkok.',
+    'https://tse1.mm.bing.net/th/id/OIP.EKvTrsLMb_YEt7Y-DZyuowHaEl?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Darjeeling Weekend Escape',
+    'package',
+    'Darjeeling',
+    39243,
+    'Includes stay, transport and guided tours in Darjeeling.',
+    'https://www.mountainadventure.co.in/images/inner/darjeeling-tour-package.jpg',
+    true
+  ),
+(
+    'AirVista to Sydney',
+    'flight',
+    'Sydney',
+    17693,
+    'Direct and connecting flights available to Sydney.',
+    'https://tse1.mm.bing.net/th/id/OIP.dVh7mdMD7f7LnQYkAAyXRAHaHC?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Urban Stay, Kerala',
+    'hotel',
+    'Kerala',
+    1323,
+    'Comfortable stay at Kerala with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759481510/hl4rgnz27gcvwr6yovwi.avif',
+    false
+  ),
+(
+    'JetStream to Jaipur',
+    'flight',
+    'Jaipur',
+    13848,
+    'Direct and connecting flights available to Jaipur.',
+    'https://english.varthabharati.in/storage/uploads/india/AirIndiaPCShutterstock_vb_97.jpeg',
+    true
+  ),
+(
+    'Istanbul Adventure Plan',
+    'package',
+    'Istanbul',
+    26261,
+    'Includes stay, transport and guided tours in Istanbul.',
+    'https://www.wttsaudia.com/images/istanbul-tour-package.jpg',
+    true
+  ),
+(
+    'Grand Residency, Sydney',
+    'hotel',
+    'Sydney',
+    8651,
+    'Comfortable stay at Sydney with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759481746/kvijgsmgd0xrs4karv8p.avif',
+    true
+  ),
+(
+    'FlyHigh Airways to Maldives',
+    'flight',
+    'Maldives',
+    16900,
+    'Direct and connecting flights available to Maldives.',
+    'https://vacationtomaldives.com/wp-content/uploads/maldives-flights-768x433.jpg',
+    true
+  ),
+(
+    'Paris Holiday Bundle',
+    'package',
+    'Paris',
+    19339,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://rltours.in/wp-content/uploads/2023/12/Paris-France-Vacation-Package.jpg',
+    true
+  ),
+(
+    'Darjeeling Explorer Package',
+    'package',
+    'Darjeeling',
+    38080,
+    'Includes stay, transport and guided tours in Darjeeling.',
+    'https://gogetatrip.com/Darjeeling-tour-Package-from-Kolkata_files/darjeeling_package_form_kolakta.webp',
+    false
+  ),
+(
+    'Hilltop Retreat, Rishikesh',
+    'hotel',
+    'Rishikesh',
+    7897,
+    'Comfortable stay at Rishikesh with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759484598/vq7d1v3rf667xhor8xka.avif',
+    true
+  ),
+(
+    'Rome Holiday Bundle',
+    'package',
+    'Rome',
+    17438,
+    'Includes stay, transport and guided tours in Rome.',
+    'https://tse1.mm.bing.net/th/id/OIP.1Gsb_e4QpQenxDdVA1R6uAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Bali Explorer Package',
+    'package',
+    'Bali',
+    43813,
+    'Includes stay, transport and guided tours in Bali.',
+    'https://i0.wp.com/visitbalitour.com/wp-content/uploads/2018/12/Bali-tour-packages-.jpg?resize=1024%2C684&ssl=1',
+    true
+  ),
+(
+    'Darjeeling Explorer Package',
+    'package',
+    'Darjeeling',
+    35137,
+    'Includes stay, transport and guided tours in Darjeeling.',
+    'https://res.cloudinary.com/dyiffrkzh/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_center,h_518,q_auto,w_660/v1714982800/bbj/mv5ahz227lncka8jcry6.webp',
+    false
+  ),
+(
+    'Royal Suites, Istanbul',
+    'hotel',
+    'Istanbul',
+    9665,
+    'Comfortable stay at Istanbul with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759484636/ijxkshv5na5f3csi6oi8.avif',
+    false
+  ),
+(
+    'AirVista to Bali',
+    'flight',
+    'Bali',
+    3805,
+    'Direct and connecting flights available to Bali.',
+    'https://parisexploration.com/wp-content/uploads/2025/09/Does-Air-France-fly-to-Paris.jpg',
+    true
+  ),
+(
+    'Dubai Holiday Bundle',
+    'package',
+    'Dubai',
+    16348,
+    'Includes stay, transport and guided tours in Dubai.',
+    'https://img1.exportersindia.com/product_images/bc-full/2020/4/7006933/dubai-tour-packages-1586415120-5364192.jpg',
+    true
+  ),
+(
+    'JetStream to Tokyo',
+    'flight',
+    'Tokyo',
+    13112,
+    'Direct and connecting flights available to Tokyo.',
+    'https://assets.nihongoclassroom.com/ded88eed-39b0-483a-8d60-54adb652bb9c.jpg',
+    true
+  ),
+(
+    'Jaipur Weekend Escape',
+    'package',
+    'Jaipur',
+    21149,
+    'Includes stay, transport and guided tours in Jaipur.',
+    'https://indiatoursinformation.com/wp-content/uploads/2025/05/Jaipur-Tour-Package-for-family-for-3-days.png',
+    true
+  ),
+(
+    'Sea Breeze Resort, Manali',
+    'hotel',
+    'Manali',
+    5707,
+    'Comfortable stay at Manali with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759484686/ri3rqk76ramks6u04qdl.avif',
+    true
+  ),
+(
+    'SkyConnect to Istanbul',
+    'flight',
+    'Istanbul',
+    17828,
+    'Direct and connecting flights available to Istanbul.',
+    'https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/ff/4f/f7.jpg',
+    true
+  ),
+(
+    'Royal Suites, Kerala',
+    'hotel',
+    'Kerala',
+    6830,
+    'Comfortable stay at Kerala with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759485159/b6hxq10bxhpdxcdzua7t.avif',
+    true
+  ),
+(
+    'JetStream to Maldives',
+    'flight',
+    'Maldives',
+    15109,
+    'Direct and connecting flights available to Maldives.',
+    'https://vacationtomaldives.com/wp-content/uploads/maldives-flights-768x433.jpg',
+    true
+  ),
+(
+    'Ladakh Explorer Package',
+    'package',
+    'Ladakh',
+    32332,
+    'Includes stay, transport and guided tours in Ladakh.',
+    'https://www.rstravelindia.com/blog/wp-content/uploads/2024/02/beautiful-ladakh-tour-package-6days.jpg',
+    true
+  ),
+(
+    'Sea Breeze Resort, Bali',
+    'hotel',
+    'Bali',
+    8440,
+    'Comfortable stay at Bali with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759485202/b8u3oimfqjrq5oa5j7az.avif',
+    true
+  ),
+(
+    'Urban Stay, Dubai',
+    'hotel',
+    'Dubai',
+    6488,
+    'Comfortable stay at Dubai with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759485235/ulpq3cdcwnzyxkmk9kov.avif',
+    true
+  ),
+(
+    'SkyConnect to Tokyo',
+    'flight',
+    'Tokyo',
+    4771,
+    'Direct and connecting flights available to Tokyo.',
+    'https://th.bing.com/th/id/OIP.T2sb7ILzP-PCapb-0ebQWwHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'FlyHigh Airways to Goa',
+    'flight',
+    'Goa',
+    11468,
+    'Direct and connecting flights available to Goa.',
+    'https://th.bing.com/th/id/OIP.w4G8LBbku57GgAN_-JN-kAHaEK?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Royal Suites, Rishikesh',
+    'hotel',
+    'Rishikesh',
+    2757,
+    'Comfortable stay at Rishikesh with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1760278939/xupnicvygaxfnboyor2s.jpg',
+    true
+  ),
+(
+    'Paris Explorer Package',
+    'package',
+    'Paris',
+    44087,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://c.regencyholidays.com/packages/398288fd-ca97-456a-afab-fd96b0ae46cf/original/5796926e-3583-4ad1-bac5-f113c9e9d1de.webp',
+    true
+  ),
+(
+    'Bangkok Weekend Escape',
+    'package',
+    'Bangkok',
+    20450,
+    'Includes stay, transport and guided tours in Bangkok.',
+    'https://tse1.mm.bing.net/th/id/OIP.jVGDQ8e__8Gh_vF_qJk34AHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Royal Suites, Istanbul',
+    'hotel',
+    'Istanbul',
+    2462,
+    'Comfortable stay at Istanbul with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759485238/qftoqdzibxi6o7vbit6j.avif',
+    true
+  ),
+(
+    'SkyConnect to Dubai',
+    'flight',
+    'Dubai',
+    7150,
+    'Direct and connecting flights available to Dubai.',
+    'https://th.bing.com/th/id/OIP.Wr2sO9HCFGDI6DrY_F5MRQHaFj?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Grand Residency, Rome',
+    'hotel',
+    'Rome',
+    6836,
+    'Comfortable stay at Rome with modern amenities.',
+    'https://images.unsplash.com/photo-1551882547-ff40c63fe5fa',
+    true
+  ),
+(
+    'Hilltop Retreat, Paris',
+    'hotel',
+    'Paris',
+    4736,
+    'Comfortable stay at Paris with modern amenities.',
+    'https://res.cloudinary.com/dghzubwry/image/upload/v1759485202/p6nzvrwgpthyooi2i6yp.avif',
+    true
+  ),
+(
+    'Dubai Holiday Bundle',
+    'package',
+    'Dubai',
+    13703,
+    'Includes stay, transport and guided tours in Dubai.',
+    'https://www.akhilaatourism.com/wp-content/uploads/2022/11/package-4days-dubai-600x693.jpg',
+    true
+  ),
+(
+    'Sydney Holiday Bundle',
+    'package',
+    'Sydney',
+    42330,
+    'Includes stay, transport and guided tours in Sydney.',
+    'https://dynamic.tourtravelworld.com/package-images/photo-big/dir_14/392994/304618.jpg',
+    false
+  ),
+(
+    'Grand Residency, Rome',
+    'hotel',
+    'Rome',
+    7286,
+    'Comfortable stay at Rome with modern amenities.',
+    'https://th.bing.com/th/id/OIP.YFr-4Qr-AYfvnpOsexxpYAHaFj?w=265&h=198&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    false
+  ),
+(
+    'Istanbul Explorer Package',
+    'package',
+    'Istanbul',
+    40499,
+    'Includes stay, transport and guided tours in Istanbul.',
+    'https://premiotravels.com/wp-content/uploads/2020/09/Istanbul-04-Days-Exclusive-Holiday-Travel-Tour-Package-2-scaled-1.jpg',
+    false
+  ),
+(
+    'Manali Adventure Plan',
+    'package',
+    'Manali',
+    49857,
+    'Includes stay, transport and guided tours in Manali.',
+    'https://flightfare.co.in/wp-content/uploads/2023/05/manali-tour-package.jpg',
+    true
+  ),
+(
+    'Hilltop Retreat, Darjeeling',
+    'hotel',
+    'Darjeeling',
+    9032,
+    'Comfortable stay at Darjeeling with modern amenities.',
+    'https://th.bing.com/th/id/OIP.hMlMJGn1CgiDX7AbKOCS5gHaEK?w=326&h=183&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'Jaipur Explorer Package',
+    'package',
+    'Jaipur',
+    37943,
+    'Includes stay, transport and guided tours in Jaipur.',
+    'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee',
+    false
+  ),
+(
+    'Royal Suites, Udaipur',
+    'hotel',
+    'Udaipur',
+    7201,
+    'Comfortable stay at Udaipur with modern amenities.',
+    'https://images.unsplash.com/photo-1566073771259-6a8506099945',
+    false
+  ),
+(
+    'SkyConnect to Istanbul',
+    'flight',
+    'Istanbul',
+    4957,
+    'Direct and connecting flights available to Istanbul.',
+    'https://static1.simpleflyingimages.com/wordpress/wp-content/uploads/2023/11/shutterstock_2371971389-1.jpg',
+    true
+  ),
+(
+    'Goa Adventure Plan',
+    'package',
+    'Goa',
+    49290,
+    'Includes stay, transport and guided tours in Goa.',
+    'https://scubadivingadventure.in/images/goa-tour/hotels/goatour.jpeg',
+    true
+  ),
+(
+    'Sydney Explorer Package',
+    'package',
+    'Sydney',
+    37735,
+    'Includes stay, transport and guided tours in Sydney.',
+    'https://dynamic.tourtravelworld.com/package-images/photo-big/dir_15/439456/147436.jpg',
+    true
+  ),
+(
+    'JetStream to Ladakh',
+    'flight',
+    'Ladakh',
+    12708,
+    'Direct and connecting flights available to Ladakh.',
+    'https://discoverlehladakh.in/wp-content/uploads/2023/05/GoAir-Go-first-cancels-all-flights-across-nation-including-Leh-ladakh.jpg',
+    true
+  ),
+(
+    'JetStream to Udaipur',
+    'flight',
+    'Udaipur',
+    8273,
+    'Direct and connecting flights available to Udaipur.',
+    'https://images.unsplash.com/photo-1494412574643-ff74c6e90e41',
+    true
+  ),
+(
+    'SkyConnect to Udaipur',
+    'flight',
+    'Udaipur',
+    13149,
+    'Direct and connecting flights available to Udaipur.',
+    'hhttps://tse2.mm.bing.net/th/id/OIP.CaKaAK2hr7cj7kvxog_aBQHaED?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'FlyHigh Airways to Rome',
+    'flight',
+    'Rome',
+    17216,
+    'Direct and connecting flights available to Rome.',
+    'https://tse1.mm.bing.net/th/id/OIP.ru7J3l9cX-eg7eRnhNPGUgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'AirVista to Maldives',
+    'flight',
+    'Maldives',
+    11676,
+    'Direct and connecting flights available to Maldives.',
+    'https://vacationtomaldives.com/wp-content/uploads/maldives-flights-768x433.jpg',
+    true
+  ),
+(
+    'SkyConnect to Goa',
+    'flight',
+    'Goa',
+    7683,
+    'Direct and connecting flights available to Goa.',
+    'https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96',
+    true
+  ),
+(
+    'FlyHigh Airways to Manali',
+    'flight',
+    'Manali',
+    15620,
+    'Direct and connecting flights available to Manali.',
+    'https://tse3.mm.bing.net/th/id/OIP.WoW91zGTRWnveI_gUKKLBwHaEK?rs=1&pid=ImgDetMain&o=7&rm=35',
+    false
+  ),
+(
+    'FlyHigh Airways to Kerala',
+    'flight',
+    'Kerala',
+    15364,
+    'Direct and connecting flights available to Kerala.',
+    'https://aviationnexus.com/wp-content/uploads/2025/01/1-3.jpg',
+    true
+  ),
+(
+    'AirVista to Maldives',
+    'flight',
+    'Maldives',
+    14616,
+    'Direct and connecting flights available to Maldives.',
+    'https://vacationtomaldives.com/wp-content/uploads/maldives-flights-768x433.jpg',
+    false
+  ),
+(
+    'FlyHigh Airways to Maldives',
+    'flight',
+    'Maldives',
+    13959,
+    'Direct and connecting flights available to Maldives.',
+    'https://tse1.mm.bing.net/th/id/OIP.kYuFZfsNELBKCtAhrGInLgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'FlyHigh Airways to Maldives',
+    'flight',
+    'Maldives',
+    10776,
+    'Direct and connecting flights available to Maldives.',
+    'https://tse1.mm.bing.net/th/id/OIP.kYuFZfsNELBKCtAhrGInLgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'AirVista to Bangkok',
+    'flight',
+    'Bangkok',
+    19170,
+    'Direct and connecting flights available to Bangkok.',
+    'https://tse1.mm.bing.net/th/id/OIP.EKvTrsLMb_YEt7Y-DZyuowHaEl?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'JetStream to Rome',
+    'flight',
+    'Rome',
+    9064,
+    'Direct and connecting flights available to Rome.',
+    'https://tse4.mm.bing.net/th/id/OIP.uXgiiCiQXdf7sV39n_BAgwHaCv?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Sea Breeze Resort, Udaipur',
+    'hotel',
+    'Udaipur',
+    9353,
+    'Comfortable stay at Udaipur with modern amenities.',
+    'https://th.bing.com/th/id/OIP.ek3cWGkJe80HqEsQD1Zp7gHaE8?w=258&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'Urban Stay, Paris',
+    'hotel',
+    'Paris',
+    3395,
+    'Comfortable stay at Paris with modern amenities.',
+    'https://th.bing.com/th/id/OIP.BAQVGUmLvPJqaF-kLdRdwQHaE8?w=307&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'AirVista to Sydney',
+    'flight',
+    'Sydney',
+    12788,
+    'Direct and connecting flights available to Sydney.',
+    'https://tse3.mm.bing.net/th/id/OIP.aWxDibxZL99FI6m1Nxx46gHaEw?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'SkyConnect to Goa',
+    'flight',
+    'Goa',
+    8482,
+    'Direct and connecting flights available to Goa.',
+    'https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96',
+    true
+  ),
+(
+    'SkyConnect to Paris',
+    'flight',
+    'Paris',
+    12429,
+    'Direct and connecting flights available to Paris.',
+    'https://tse4.mm.bing.net/th/id/OIP.4QpyEEyoUHlqWZ7E654DygHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Grand Residency, Jaipur',
+    'hotel',
+    'Jaipur',
+    7884,
+    'Comfortable stay at Jaipur with modern amenities.',
+    'https://th.bing.com/th/id/OIP.xgaDZ-6Rb1u3Yc-O9CtdnwHaE8?w=273&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'AirVista to Maldives',
+    'flight',
+    'Maldives',
+    17926,
+    'Direct and connecting flights available to Maldives.',
+    'https://tse1.mm.bing.net/th/id/OIP.kYuFZfsNELBKCtAhrGInLgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'JetStream to Maldives',
+    'flight',
+    'Maldives',
+    9710,
+    'Direct and connecting flights available to Maldives.',
+    'https://th.bing.com/th/id/OIP.JU9wJW8V4wcgSVOVP62AdAHaEP?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Sea Breeze Resort, Paris',
+    'hotel',
+    'Paris',
+    2448,
+    'Comfortable stay at Paris with modern amenities.',
+    'https://th.bing.com/th/id/OIP.p-xGTQ3mrUwy0a95Y-f47AHaE8?w=223&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'Urban Stay, Maldives',
+    'hotel',
+    'Maldives',
+    5481,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://th.bing.com/th/id/OIP.rNLNzRAJiGpnMZU8OyQ4_gHaHa?w=169&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'JetStream to Ladakh',
+    'flight',
+    'Ladakh',
+    5769,
+    'Direct and connecting flights available to Ladakh.',
+    'https://www.ladakh-tourism.net/wp-content/uploads/2021/04/airplane-1024x536.jpeg',
+    true
+  ),
+(
+    'JetStream to Udaipur',
+    'flight',
+    'Udaipur',
+    13855,
+    'Direct and connecting flights available to Udaipur.',
+    'https://th.bing.com/th/id/OIP.wydtNvxwn3QSg34DXaZV9gHaIn?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Royal Suites, Ladakh',
+    'hotel',
+    'Ladakh',
+    7893,
+    'Comfortable stay at Ladakh with modern amenities.',
+    'https://th.bing.com/th/id/OIP.XB3Px5lgdOaHwcbFa9IeqAHaEK?w=294&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'Paris Weekend Escape',
+    'package',
+    'Paris',
+    12014,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://www.multicitytrips.com/wp-content/uploads/2020/08/paris-prague.png',
+    true
+  ),
+(
+    'Grand Residency, Rishikesh',
+    'hotel',
+    'Rishikesh',
+    7910,
+    'Comfortable stay at Rishikesh with modern amenities.',
+    'https://th.bing.com/th/id/OIP.VCfT43VOM9e7mZr4-39J_wHaE8?w=291&h=194&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'AirVista to Darjeeling',
+    'flight',
+    'Darjeeling',
+    11476,
+    'Direct and connecting flights available to Darjeeling.',
+    'https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96',
+    true
+  ),
+(
+    'AirVista to Tokyo',
+    'flight',
+    'Tokyo',
+    16562,
+    'Direct and connecting flights available to Tokyo.',
+    'https://www.tripsavvy.com/thmb/6QUD0SNvUuYDVSX0-l9jLZpWFho=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/tokyo-skyline-from-the-airplane-483288090-5c2fcdbcc9e77c00011ab5d2.jpg',
+    false
+  ),
+(
+    'FlyHigh Airways to Darjeeling',
+    'flight',
+    'Darjeeling',
+    18285,
+    'Direct and connecting flights available to Darjeeling.',
+    'https://images.unsplash.com/photo-1494412574643-ff74c6e90e41',
+    true
+  ),
+(
+    'Sea Breeze Resort, Jaipur',
+    'hotel',
+    'Jaipur',
+    4703,
+    'Comfortable stay at Jaipur with modern amenities.',
+    'https://th.bing.com/th/id/OIP.WOaQOCa7QuZcPbJEFuShzQHaFj?w=213&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'Kerala Weekend Escape',
+    'package',
+    'Kerala',
+    19096,
+    'Includes stay, transport and guided tours in Kerala.',
+    'https://experiencemyindia.com/wp-content/uploads/2025/02/Kerala-tour-packages-from-Kochi.jpg',
+    true
+  ),
+(
+    'JetStream to Bali',
+    'flight',
+    'Bali',
+    16081,
+    'Direct and connecting flights available to Bali.',
+    'https://images.unsplash.com/photo-1436491865332-7a61a109cc05',
+    true
+  ),
+(
+    'Ladakh Weekend Escape',
+    'package',
+    'Ladakh',
+    45666,
+    'Includes stay, transport and guided tours in Ladakh.',
+    'https://tse2.mm.bing.net/th/id/OIP._hNBrkysXQunod4rgKGGDwHaD4?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Urban Stay, Rishikesh',
+    'hotel',
+    'Rishikesh',
+    9719,
+    'Comfortable stay at Rishikesh with modern amenities.',
+    'https://th.bing.com/th/id/OIP.6ShAArBhfNpS2hrTQu7WdwHaFj?w=232&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    false
+  ),
+(
+    'Royal Suites, Bali',
+    'hotel',
+    'Bali',
+    7843,
+    'Comfortable stay at Bali with modern amenities.',
+    'https://th.bing.com/th/id/OIP.iA-gRP8MJY_VyMvwROp03wHaEp?w=266&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    false
+  ),
+(
+    'Urban Stay, Dubai',
+    'hotel',
+    'Dubai',
+    4364,
+    'Comfortable stay at Dubai with modern amenities.',
+    'https://th.bing.com/th/id/OIP.y13Lai4pHOMaGzV2bF3ShwHaE7?w=283&h=189&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'Rome Explorer Package',
+    'package',
+    'Rome',
+    41867,
+    'Includes stay, transport and guided tours in Rome.',
+    'https://www.myglobalviewpoint.com/wp-content/uploads/2023/09/Qatar-Airways-Rome-768x576.jpg',
+    false
+  ),
+(
+    'Jaipur Adventure Plan',
+    'package',
+    'Jaipur',
+    45240,
+    'Includes stay, transport and guided tours in Jaipur.',
+    'https://www.kkholidays.com/images/blog/jaipur-holiday-packages.jpg',
+    true
+  ),
+(
+    'FlyHigh Airways to Tokyo',
+    'flight',
+    'Tokyo',
+    17340,
+    'Direct and connecting flights available to Tokyo.',
+    'https://tse3.mm.bing.net/th/id/OIP.WdkW42y4Z9Ead0xSuwe84wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Manali Adventure Plan',
+    'package',
+    'Manali',
+    42957,
+    'Includes stay, transport and guided tours in Manali.',
+    'https://www.hellovisit.in/uploads/0000/1/2022/03/08/ultimate-travel-guide-for-manali-trip-himachal-pradesh.png',
+    true
+  ),
+(
+    'AirVista to Dubai',
+    'flight',
+    'Dubai',
+    12537,
+    'Direct and connecting flights available to Dubai.',
+    'https://th.bing.com/th/id/OIP.Wr2sO9HCFGDI6DrY_F5MRQHaFj?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Hilltop Retreat, Bangkok',
+    'hotel',
+    'Bangkok',
+    7093,
+    'Comfortable stay at Bangkok with modern amenities.',
+    'https://th.bing.com/th/id/OIP.SczWuq4AXQSduNBMwKIOswHaFj?w=213&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    false
+  ),
+(
+    'SkyConnect to Maldives',
+    'flight',
+    'Maldives',
+    16686,
+    'Direct and connecting flights available to Maldives.',
+    'https://th.bing.com/th/id/OIP.HtFmk0DJfzPjJzb1hxmwdAHaFj?w=239&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    false
+  ),
+(
+    'Grand Residency, Darjeeling',
+    'hotel',
+    'Darjeeling',
+    5219,
+    'Comfortable stay at Darjeeling with modern amenities.',
+    'https://tse1.mm.bing.net/th/id/OIP.S-W9bvWY2Gyc6gvdEWc0swHaFj?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'AirVista to Istanbul',
+    'flight',
+    'Istanbul',
+    7946,
+    'Direct and connecting flights available to Istanbul.',
+    'hhttps://th.bing.com/th/id/OIP.9PospdhhW1zB3N2crjhjlgHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'JetStream to Kerala',
+    'flight',
+    'Kerala',
+    13203,
+    'Direct and connecting flights available to Kerala.',
+    'https://images.cnbctv18.com/uploads/2024/10/air-kerala-2024-10-5eea7ed47fe654ac90320cb09973ffab.jpg?impolicy=website&width=640&height=360',
+    false
+  ),
+(
+    'FlyHigh Airways to Rishikesh',
+    'flight',
+    'Rishikesh',
+    5555,
+    'Direct and connecting flights available to Rishikesh.',
+    'https://tse1.explicit.bing.net/th/id/OIP.ecQCboA9OeBABB3McIjbJQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Sea Breeze Resort, Istanbul',
+    'hotel',
+    'Istanbul',
+    5663,
+    'Comfortable stay at Istanbul with modern amenities.',
+    'https://tse4.mm.bing.net/th/id/OIP.Jj0i-CXkU5mRAC61KZPW_QHaFj?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Royal Suites, Udaipur',
+    'hotel',
+    'Udaipur',
+    9380,
+    'Comfortable stay at Udaipur with modern amenities.',
+    'https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202402052207461992-3df97ea0-3220-40d8-b015-4f9423298c11.jpg',
+    true
+  ),
+(
+    'Istanbul Weekend Escape',
+    'package',
+    'Istanbul',
+    27582,
+    'Includes stay, transport and guided tours in Istanbul.',
+    'https://c.regencyholidays.com/packages/48940965-79c1-4e5f-865b-e70451142716/original/0a0eb7f6-ca53-45db-8063-6da80e3cac6d.webp',
+    false
+  ),
+(
+    'Ladakh Explorer Package',
+    'package',
+    'Ladakh',
+    40692,
+    'Includes stay, transport and guided tours in Ladakh.',
+    'https://mytourguru.in/wp-content/uploads/2024/04/ladakh2-2-1.webp',
+    true
+  ),
+(
+    'Manali Explorer Package',
+    'package',
+    'Manali',
+    38888,
+    'Includes stay, transport and guided tours in Manali.',
+    'https://www.tripplannersindia.com/assets/images/page/2_Nights_3_Days_Manali_Tour_Package5.jpg',
+    false
+  ),
+(
+    'AirVista to Goa',
+    'flight',
+    'Goa',
+    8918,
+    'Direct and connecting flights available to Goa.',
+    'https://images.unsplash.com/photo-1436491865332-7a61a109cc05',
+    false
+  ),
+(
+    'Jaipur Adventure Plan',
+    'package',
+    'Jaipur',
+    16290,
+    'Includes stay, transport and guided tours in Jaipur.',
+    'https://imgcld.yatra.com/ytimages/image/upload/v1463141304/Jaipur_overview1.jpg',
+    true
+  ),
+(
+    'Goa Weekend Escape',
+    'package',
+    'Goa',
+    34017,
+    'Includes stay, transport and guided tours in Goa.',
+    'https://goatourpackages.in/wp-content/uploads/2024/03/1.webp',
+    true
+  ),
+(
+    'AirVista to Paris',
+    'flight',
+    'Paris',
+    4309,
+    'Direct and connecting flights available to Paris.',
+    'https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96',
+    false
+  ),
+(
+    'JetStream to Udaipur',
+    'flight',
+    'Udaipur',
+    3826,
+    'Direct and connecting flights available to Udaipur.',
+    'https://tse4.mm.bing.net/th/id/OIP.vecXDdMtAJl0mkpshXSK0wHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Rome Weekend Escape',
+    'package',
+    'Rome',
+    18829,
+    'Includes stay, transport and guided tours in Rome.',
+    'https://c.regencyholidays.com/packages/6725644f-2379-4dcc-b957-7afb5e08ab6f/790X392/a9ce4266-796f-41c6-b8f9-2d4868b62f12.webp',
+    true
+  ),
+(
+    'Grand Residency, Darjeeling',
+    'hotel',
+    'Darjeeling',
+    1094,
+    'Comfortable stay at Darjeeling with modern amenities.',
+    'https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/flyfish/raw/NH71251305302724/QS1042/QS1042-Q1/IMG_20240130_190204.jpg',
+    false
+  ),
+(
+    'Maldives Adventure Plan',
+    'package',
+    'Maldives',
+    24837,
+    'Includes stay, transport and guided tours in Maldives.',
+    'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1',
+    true
+  ),
+(
+    'JetStream to Dubai',
+    'flight',
+    'Dubai',
+    18820,
+    'Direct and connecting flights available to Dubai.',
+    'https://th.bing.com/th/id/OIP.Wr2sO9HCFGDI6DrY_F5MRQHaFj?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Jaipur Adventure Plan',
+    'package',
+    'Jaipur',
+    44847,
+    'Includes stay, transport and guided tours in Jaipur.',
+    'https://www.swantour.com/blogs/wp-content/uploads/2023/11/Whats-the-Ideal-Duration-for-Jaipur-Tour-Packages-to-Explore-the-City.png',
+    true
+  ),
+(
+    'Hilltop Retreat, Ladakh',
+    'hotel',
+    'Ladakh',
+    7724,
+    'Comfortable stay at Ladakh with modern amenities.',
+    'https://tse1.mm.bing.net/th/id/OIP.aqi0dbCgg8Bfrf0nDRsV2AAAAA?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'FlyHigh Airways to Maldives',
+    'flight',
+    'Maldives',
+    15926,
+    'Direct and connecting flights available to Maldives.',
+    'https://th.bing.com/th/id/OIP.JU9wJW8V4wcgSVOVP62AdAHaEP?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'SkyConnect to Goa',
+    'flight',
+    'Goa',
+    3281,
+    'Direct and connecting flights available to Goa.',
+    'https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96',
+    true
+  ),
+(
+    'JetStream to Tokyo',
+    'flight',
+    'Tokyo',
+    7875,
+    'Direct and connecting flights available to Tokyo.',
+    'https://th.bing.com/th/id/OIP.bpsKu4W03-fKRfmochhrLQHaEK?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Sea Breeze Resort, Bali',
+    'hotel',
+    'Bali',
+    9202,
+    'Comfortable stay at Bali with modern amenities.',
+    'https://tse1.mm.bing.net/th/id/OIP.M1uy4siTkySyE2NoOnS4AAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Urban Stay, Sydney',
+    'hotel',
+    'Sydney',
+    1287,
+    'Comfortable stay at Sydney with modern amenities.',
+    'https://tse2.mm.bing.net/th/id/OIP.-VF8GRUrJFSxNOZvkI7LpgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Paris Adventure Plan',
+    'package',
+    'Paris',
+    12971,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://www.holidify.com/images/cmsuploads/compressed/16-Eiffel-Tower-in-Paris_20211020110035.jpg',
+    false
+  ),
+(
+    'Paris Weekend Escape',
+    'package',
+    'Paris',
+    42438,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://besttraveldeals.net/wp-content/uploads/2017/08/1ertyhgfd-1.jpg',
+    true
+  ),
+(
+    'AirVista to Jaipur',
+    'flight',
+    'Jaipur',
+    7005,
+    'Direct and connecting flights available to Jaipur.',
+    'https://thumbs.dreamstime.com/b/airasia-airlines-flight-jaipur-international-airport-malaysian-multinational-low-cost-airline-india-october-278944863.jpg',
+    false
+  ),
+(
+    'AirVista to Istanbul',
+    'flight',
+    'Istanbul',
+    7368,
+    'Direct and connecting flights available to Istanbul.',
+    'https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/ff/4f/f7.jpg',
+    true
+  ),
+(
+    'Sea Breeze Resort, Maldives',
+    'hotel',
+    'Maldives',
+    7666,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://seabreeze.az/uploads/2022/10/05/20_100_fe90eb187da776e17f91270364b4263b.jpg',
+    false
+  ),
+(
+    'JetStream to Paris',
+    'flight',
+    'Paris',
+    15114,
+    'Direct and connecting flights available to Paris.',
+    'https://images.unsplash.com/photo-1494412574643-ff74c6e90e41',
+    true
+  ),
+(
+    'Sea Breeze Resort, Dubai',
+    'hotel',
+    'Dubai',
+    5111,
+    'Comfortable stay at Dubai with modern amenities.',
+    'https://cf.bstatic.com/xdata/images/hotel/max1024x768/544079983.jpg?k=044f04b3c17279358b444510de9d9aa32662056af5a67f45da7bae4593a091fb&o=',
+    false
+  ),
+(
+    'Tokyo Adventure Plan',
+    'package',
+    'Tokyo',
+    44725,
+    'Includes stay, transport and guided tours in Tokyo.',
+    'https://indtravels.com/wp-content/uploads/2019/06/Tokyo-Tour-Packages.jpg',
+    true
+  ),
+(
+    'Udaipur Holiday Bundle',
+    'package',
+    'Udaipur',
+    41442,
+    'Includes stay, transport and guided tours in Udaipur.',
+    'https://tse4.mm.bing.net/th/id/OIP.M_ybE_aMsG-Nsv61fDVTSQHaD4?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Royal Suites, Darjeeling',
+    'hotel',
+    'Darjeeling',
+    6338,
+    'Comfortable stay at Darjeeling with modern amenities.',
+    'https://tse3.mm.bing.net/th/id/OIP.EBlqTDzVD2zj9eAMoXzwHAHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'AirVista to Rishikesh',
+    'flight',
+    'Rishikesh',
+    9732,
+    'Direct and connecting flights available to Rishikesh.',
+    'https://www.haridwarrishikeshtourism.com/rishikesh-tourism/how-to-reach-rishikesh-by-airplane.jpg',
+    true
+  ),
+(
+    'Paris Weekend Escape',
+    'package',
+    'Paris',
+    42536,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://www.holidify.com/images/cmsuploads/compressed/shutterstock_556743958_20191220161937.jpg',
+    true
+  ),
+(
+    'FlyHigh Airways to Jaipur',
+    'flight',
+    'Jaipur',
+    15344,
+    'Direct and connecting flights available to Jaipur.',
+    'https://th.bing.com/th/id/OIP.fJFw4iHM3V8954VLs_KfvwAAAA?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Sydney Weekend Escape',
+    'package',
+    'Sydney',
+    21768,
+    'Includes stay, transport and guided tours in Sydney.',
+    'https://workingholidayguide.com/wp-content/uploads/2022/11/sydney-arrival-package-guided-tour-australia-group-friends-sydney-intro-arrival-package-australia-arrival-package-sydney-intro-package-for-working-holiday-visa-holder-work-and-travel-810x608.jpg',
+    true
+  ),
+(
+    'Darjeeling Holiday Bundle',
+    'package',
+    'Darjeeling',
+    39456,
+    'Includes stay, transport and guided tours in Darjeeling.',
+    'https://journeysandframes.in/wp-content/uploads/2025/03/WhatsApp-Image-2025-04-09-at-9.59.jpg',
+    false
+  ),
+(
+    'Manali Holiday Bundle',
+    'package',
+    'Manali',
+    11107,
+    'Includes stay, transport and guided tours in Manali.',
+    'https://cdn1.tripoto.com/media/filter/tst/img/2174137/Image/1632482080_8manali.jpg',
+    true
+  ),
+(
+    'SkyConnect to Ladakh',
+    'flight',
+    'Ladakh',
+    19140,
+    'Direct and connecting flights available to Ladakh.',
+    'https://discoverlehladakh.in/wp-content/uploads/2023/05/GoAir-Go-first-cancels-all-flights-across-nation-including-Leh-ladakh.jpg',
+    true
+  ),
+(
+    'Dubai Explorer Package',
+    'package',
+    'Dubai',
+    10138,
+    'Includes stay, transport and guided tours in Dubai.',
+    'https://tse2.mm.bing.net/th/id/OIP.3c66k6qTpz4OU6h1vIpyAQHaCn?w=1048&h=370&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Hilltop Retreat, Udaipur',
+    'hotel',
+    'Udaipur',
+    8263,
+    'Comfortable stay at Udaipur with modern amenities.',
+    'https://images.unsplash.com/photo-1566073771259-6a8506099945',
+    true
+  ),
+(
+    'Bangkok Weekend Escape',
+    'package',
+    'Bangkok',
+    34091,
+    'Includes stay, transport and guided tours in Bangkok.',
+    'https://dynamic.tourtravelworld.com/package-images/photo-big/dir_17/498710/358181.png',
+    true
+  ),
+(
+    'SkyConnect to Darjeeling',
+    'flight',
+    'Darjeeling',
+    10956,
+    'Direct and connecting flights available to Darjeeling.',
+    'https://images.unsplash.com/photo-1506012787146-f92b2d7d6d96',
+    true
+  ),
+(
+    'Sea Breeze Resort, Rome',
+    'hotel',
+    'Rome',
+    2235,
+    'Comfortable stay at Rome with modern amenities.',
+    'https://tse3.mm.bing.net/th/id/OIP.zgfEKs19v0UAmZNBSpSEPAHaE7?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Royal Suites, Maldives',
+    'hotel',
+    'Maldives',
+    3417,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://tse2.mm.bing.net/th/id/OIP.3R1h1JHO6c4WjPhT0hq8pQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Grand Residency, Dubai',
+    'hotel',
+    'Dubai',
+    2391,
+    'Comfortable stay at Dubai with modern amenities.',
+    'https://cf.bstatic.com/xdata/images/hotel/max1024x768/680728269.jpg?k=4dbfe79800476cd277a0d896555c2c1e1d06eaa9db76974004e6870ff32b320b&o=&hp=1',
+    true
+  ),
+(
+    'AirVista to Bali',
+    'flight',
+    'Bali',
+    11639,
+    'Direct and connecting flights available to Bali.',
+    'https://images.unsplash.com/photo-1436491865332-7a61a109cc05',
+    true
+  ),
+(
+    'JetStream to Bali',
+    'flight',
+    'Bali',
+    16619,
+    'Direct and connecting flights available to Bali.',
+    'https://images.unsplash.com/photo-1436491865332-7a61a109cc05',
+    false
+  ),
+(
+    'Grand Residency, Bali',
+    'hotel',
+    'Bali',
+    6742,
+    'Comfortable stay at Bali with modern amenities.',
+    'https://thebalisun.com/wp-content/uploads/2023/01/Luxury-Villa-Home-In-Bali.jpg',
+    true
+  ),
+(
+    'FlyHigh Airways to Sydney',
+    'flight',
+    'Sydney',
+    18951,
+    'Direct and connecting flights available to Sydney.',
+    'https://tse4.mm.bing.net/th/id/OIP.XXhdMH0hXT44VME-g_WhcgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Grand Residency, Sydney',
+    'hotel',
+    'Sydney',
+    2946,
+    'Comfortable stay at Sydney with modern amenities.',
+    'https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/81595285.jpg?k=3dbb379e67b1d8337f4bba306b8b2389edf4bdb7404aa60180697bfb2c5197db&o=',
+    false
+  ),
+(
+    'SkyConnect to Tokyo',
+    'flight',
+    'Tokyo',
+    9329,
+    'Direct and connecting flights available to Tokyo.',
+    'https://japanspecialist.com/documents/d/japanspecialist/45-the-ultimate-travel-itinerary-japan-body',
+    true
+  ),
+(
+    'Ladakh Adventure Plan',
+    'package',
+    'Ladakh',
+    15934,
+    'Includes stay, transport and guided tours in Ladakh.',
+    'https://th.bing.com/th/id/OIP.BbrOERDOl1n4Fy3qlMNbWwHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3e',
+    true
+  ),
+(
+    'Udaipur Weekend Escape',
+    'package',
+    'Udaipur',
+    11592,
+    'Includes stay, transport and guided tours in Udaipur.',
+    'https://udaipurtourpackage.com/images/slide1.jpg',
+    false
+  ),
+(
+    'Urban Stay, Ladakh',
+    'hotel',
+    'Ladakh',
+    2873,
+    'Comfortable stay at Ladakh with modern amenities.',
+    'https://tse2.mm.bing.net/th/id/OIP.43fBX6MGQXo5zBoDrjJ25QHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'AirVista to Jaipur',
+    'flight',
+    'Jaipur',
+    15899,
+    'Direct and connecting flights available to Jaipur.',
+    'https://tse4.mm.bing.net/th/id/OIP.LkRUazbY1gfYGkIjKI0ADAHaEO?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Hilltop Retreat, Rome',
+    'hotel',
+    'Rome',
+    1787,
+    'Comfortable stay at Rome with modern amenities.',
+    'https://th.bing.com/th/id/OIP.ZeV3AnfORFWLWdxEbxkjbwHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'JetStream to Manali',
+    'flight',
+    'Manali',
+    8865,
+    'Direct and connecting flights available to Manali.',
+    'https://tse3.mm.bing.net/th/id/OIP.HOE1xpF-S-Lk9imzTvEtUgHaEW?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Darjeeling Holiday Bundle',
+    'package',
+    'Darjeeling',
+    13771,
+    'Includes stay, transport and guided tours in Darjeeling.',
+    'https://www.naturewings.com/images/darjeeling/darjeeling-package-tour-from-ahmedabad.webp',
+    false
+  ),
+(
+    'Urban Stay, Istanbul',
+    'hotel',
+    'Istanbul',
+    7804,
+    'Comfortable stay at Istanbul with modern amenities.',
+    'https://th.bing.com/th/id/OIP.yXUgPJvfkwA8hXfBx2vQIwHaHa?w=158&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    true
+  ),
+(
+    'Rishikesh Adventure Plan',
+    'package',
+    'Rishikesh',
+    23140,
+    'Includes stay, transport and guided tours in Rishikesh.',
+    'hhttps://dynamic.tourtravelworld.com/package-images/photo-big/dir_34/1003871/390338.jpg',
+    true
+  ),
+(
+    'Bali Explorer Package',
+    'package',
+    'Bali',
+    18946,
+    'Includes stay, transport and guided tours in Bali.',
+    'https://www.viceroybali.com/wp-content/uploads/2024/01/Viceroy-Bali-Main-Pool-85-1-min.jpg',
+    true
+  ),
+(
+    'Royal Suites, Kerala',
+    'hotel',
+    'Kerala',
+    1516,
+    'Comfortable stay at Kerala with modern amenities.',
+    'https://qresorts.in/assets/room-images/royal-suite/royal-suite-5.jpg',
+    true
+  ),
+(
+    'Istanbul Explorer Package',
+    'package',
+    'Istanbul',
+    44163,
+    'Includes stay, transport and guided tours in Istanbul.',
+    'https://c.regencyholidays.com/packages/014b09af-9c20-456a-bfb9-7ea8a5c2459c/original/09c43bf3-4fed-4dce-aa05-69e2d7185485.webp',
+    true
+  ),
+(
+    'AirVista to Sydney',
+    'flight',
+    'Sydney',
+    7390,
+    'Direct and connecting flights available to Sydney.',
+    'hhttps://tse3.mm.bing.net/th/id/OIP.aWxDibxZL99FI6m1Nxx46gHaEw?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'AirVista to Udaipur',
+    'flight',
+    'Udaipur',
+    18622,
+    'Direct and connecting flights available to Udaipur.',
+    'https://udaipurtimes.com/static/c1e/client/74416/uploaded/d55c37fadfccbbea3bb22bbfb0825dd3.jpg',
+    false
+  ),
+(
+    'Rome Weekend Escape',
+    'package',
+    'Rome',
+    17055,
+    'Includes stay, transport and guided tours in Rome.',
+    'https://res.cloudinary.com/djcyhbk2e/image/upload/f_auto,q_35,w_1200/v1/gvv/prod/mewadi2bzjzjlkmteuo1',
+    false
+  ),
+(
+    'AirVista to Darjeeling',
+    'flight',
+    'Darjeeling',
+    5766,
+    'Direct and connecting flights available to Darjeeling.',
+    'https://images.unsplash.com/photo-1436491865332-7a61a109cc05',
+    true
+  ),
+(
+    'Sea Breeze Resort, Maldives',
+    'hotel',
+    'Maldives',
+    1303,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://seabreeze.az/uploads/2024/07/09/94_3-1.jpg',
+    true
+  ),
+(
+    'Urban Stay, Rome',
+    'hotel',
+    'Rome',
+    3592,
+    'Comfortable stay at Rome with modern amenities.',
+    'https://wheatlesswanderlust.com/wp-content/uploads/2021/08/image-6.jpeg',
+    true
+  ),
+(
+    'SkyConnect to Udaipur',
+    'flight',
+    'Udaipur',
+    11402,
+    'Direct and connecting flights available to Udaipur.',
+    'https://udaipurtimes.com/static/c1e/client/74416/uploaded/d55c37fadfccbbea3bb22bbfb0825dd3.jpg',
+    false
+  ),
+(
+    'Kerala Holiday Bundle',
+    'package',
+    'Kerala',
+    24400,
+    'Includes stay, transport and guided tours in Kerala.',
+    'https://dynamic.tourtravelworld.com/package-images/photo-big/dir_18/519225/204441.jpg',
+    false
+  ),
+(
+    'Sea Breeze Resort, Dubai',
+    'hotel',
+    'Dubai',
+    5240,
+    'Comfortable stay at Dubai with modern amenities.',
+    'https://images.unsplash.com/photo-1566073771259-6a8506099945',
+    false
+  ),
+(
+    'Kerala Weekend Escape',
+    'package',
+    'Kerala',
+    21977,
+    'Includes stay, transport and guided tours in Kerala.',
+    'https://www.hlimg.com/images/stories/738X538/Top%20Kerala%20Tour%20Packages%20With%20Price_1462013593m.jpg',
+    false
+  ),
+(
+    'Sydney Weekend Escape',
+    'package',
+    'Sydney',
+    11449,
+    'Includes stay, transport and guided tours in Sydney.',
+    'https://tse4.mm.bing.net/th/id/OIP.b_w7F0mHt2s-lRGCEFquBgHaDF?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Darjeeling Holiday Bundle',
+    'package',
+    'Darjeeling',
+    10167,
+    'Includes stay, transport and guided tours in Darjeeling.',
+    'https://aikatantoursandtravels.com/Tour_Photo/1698260597.png',
+    false
+  ),
+(
+    'Sea Breeze Resort, Bali',
+    'hotel',
+    'Bali',
+    9756,
+    'Comfortable stay at Bali with modern amenities.',
+    'https://th.bing.com/th/id/OIP.ZiSnC8D3R1CxsYo4yFGtMAHaDj?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'SkyConnect to Rishikesh',
+    'flight',
+    'Rishikesh',
+    18646,
+    'Direct and connecting flights available to Rishikesh.',
+    'https://th.bing.com/th/id/OIP.w9TKyvme-Tl9W_leMSxswAHaB2?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'AirVista to Ladakh',
+    'flight',
+    'Ladakh',
+    3242,
+    'Direct and connecting flights available to Ladakh.',
+    'https://tse2.mm.bing.net/th/id/OIP.OQ7nkHG83EmcBejBiqWCBwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'SkyConnect to Kerala',
+    'flight',
+    'Kerala',
+    4553,
+    'Direct and connecting flights available to Kerala.',
+    'https://images.cnbctv18.com/uploads/2024/10/air-kerala-2024-10-5eea7ed47fe654ac90320cb09973ffab.jpg?impolicy=website&width=640&height=360',
+    false
+  ),
+(
+    'Dubai Explorer Package',
+    'package',
+    'Dubai',
+    26337,
+    'Includes stay, transport and guided tours in Dubai.',
+    'https://wpassets.graana.com/blog/wp-content/uploads/2023/04/Dubai-Tour-Package-From-Pakistan2.jpg',
+    false
+  ),
+(
+    'Sea Breeze Resort, Maldives',
+    'hotel',
+    'Maldives',
+    6647,
+    'Comfortable stay at Maldives with modern amenities.',
+    'https://www.koamastravel.com/photos/resorts/2097-5-BandosMaldivesSeaBreeze-a5bc615841a573333ee59921dd8528131-med.jpg',
+    true
+  ),
+(
+    'SkyConnect to Maldives',
+    'flight',
+    'Maldives',
+    19936,
+    'Direct and connecting flights available to Maldives.',
+    'https://images.unsplash.com/photo-1436491865332-7a61a109cc05',
+    true
+  ),
+(
+    'Bangkok Explorer Package',
+    'package',
+    'Bangkok',
+    25843,
+    'Includes stay, transport and guided tours in Bangkok.',
+    'https://tse3.mm.bing.net/th/id/OIP.gnuOTEMfL2Z-DftaasXEpgHaD4?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Paris Holiday Bundle',
+    'package',
+    'Paris',
+    40924,
+    'Includes stay, transport and guided tours in Paris.',
+    'https://th.bing.com/th/id/OIP.pPOiJNMllABWXcP3-T7QbQHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'JetStream to Sydney',
+    'flight',
+    'Sydney',
+    5266,
+    'Direct and connecting flights available to Sydney.',
+    'https://tse4.mm.bing.net/th/id/OIP.XXhdMH0hXT44VME-g_WhcgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Sea Breeze Resort, Manali',
+    'hotel',
+    'Manali',
+    4526,
+    'Comfortable stay at Manali with modern amenities.',
+    'https://tse4.mm.bing.net/th/id/OIP.Xa407_2WwPjTZDebtypqAAHaFj?rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  ),
+(
+    'Grand Residency, Udaipur',
+    'hotel',
+    'Udaipur',
+    6802,
+    'Comfortable stay at Udaipur with modern amenities.',
+    'https://th.bing.com/th/id/OIP.zWdhPYUxup8a3RihxVWWsgHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'AirVista to Bangkok',
+    'flight',
+    'Bangkok',
+    17813,
+    'Direct and connecting flights available to Bangkok.',
+    'https://th.bing.com/th/id/OIP.LDvsCSbD088Ry4wmqc-N5AHaE7?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Royal Suites, Ladakh',
+    'hotel',
+    'Ladakh',
+    8837,
+    'Comfortable stay at Ladakh with modern amenities.',
+    'https://th.bing.com/th/id/OIP.ifxWoEVSPNylV1EeKikmCgHaEh?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    true
+  ),
+(
+    'Urban Stay, Manali',
+    'hotel',
+    'Manali',
+    1066,
+    'Comfortable stay at Manali with modern amenities.',
+    'https://th.bing.com/th/id/OIP.ZFdB_tZxZlJQ6N9HP_WLyQHaE8?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3',
+    false
+  );
+
+
+
+INSERT INTO bookings (user_id, service_id, booking_date, travelers, total_price, status)
+VALUES (
+    138,
+    87,
+    '2026-08-06',
+    4,
+    32768,
+    'PENDING'
+  ),
+(
+    126,
+    192,
+    '2026-10-01',
+    1,
+    8520,
+    'CANCELLED'
+  ),
+(
+    112,
+    2,
+    '2026-04-30',
+    4,
+    24216,
+    'CANCELLED'
+  ),
+(
+    159,
+    143,
+    '2026-10-21',
+    5,
+    10111,
+    'CONFIRMED'
+  ),
+(
+    57,
+    114,
+    '2026-05-15',
+    1,
+    46561,
+    'CONFIRMED'
+  ),
+(
+    192,
+    40,
+    '2026-07-25',
+    2,
+    42916,
+    'CANCELLED'
+  ),
+(
+    22,
+    71,
+    '2026-09-19',
+    5,
+    36873,
+    'PENDING'
+  ),
+(
+    92,
+    245,
+    '2026-08-29',
+    3,
+    14432,
+    'PENDING'
+  ),
+(
+    168,
+    96,
+    '2026-05-02',
+    1,
+    37302,
+    'CONFIRMED'
+  ),
+(
+    86,
+    203,
+    '2026-08-02',
+    4,
+    15610,
+    'CONFIRMED'
+  ),
+(
+    124,
+    277,
+    '2026-06-15',
+    2,
+    35759,
+    'PENDING'
+  ),
+(
+    120,
+    235,
+    '2026-10-18',
+    5,
+    8241,
+    'CANCELLED'
+  ),
+(
+    187,
+    203,
+    '2026-05-02',
+    5,
+    25655,
+    'PENDING'
+  ),
+(
+    139,
+    190,
+    '2026-07-18',
+    1,
+    9959,
+    'CONFIRMED'
+  ),
+(
+    4,
+    72,
+    '2026-09-27',
+    1,
+    39846,
+    'PENDING'
+  ),
+(
+    33,
+    130,
+    '2026-10-01',
+    4,
+    19806,
+    'PENDING'
+  ),
+(
+    112,
+    206,
+    '2026-05-19',
+    5,
+    41717,
+    'CANCELLED'
+  ),
+(
+    157,
+    273,
+    '2026-08-21',
+    2,
+    43150,
+    'PENDING'
+  ),
+(
+    135,
+    43,
+    '2026-08-18',
+    1,
+    8808,
+    'PENDING'
+  ),
+(
+    139,
+    145,
+    '2026-08-02',
+    2,
+    23030,
+    'PENDING'
+  ),
+(
+    126,
+    156,
+    '2026-05-02',
+    4,
+    3049,
+    'CANCELLED'
+  ),
+(
+    90,
+    150,
+    '2026-05-14',
+    3,
+    38126,
+    'CANCELLED'
+  ),
+(
+    10,
+    172,
+    '2026-05-02',
+    1,
+    48676,
+    'CANCELLED'
+  ),
+(
+    135,
+    204,
+    '2026-07-23',
+    2,
+    45206,
+    'CONFIRMED'
+  ),
+(
+    40,
+    140,
+    '2026-05-31',
+    1,
+    12815,
+    'CONFIRMED'
+  ),
+(
+    24,
+    101,
+    '2026-10-08',
+    3,
+    4521,
+    'PENDING'
+  ),
+(
+    128,
+    146,
+    '2026-08-20',
+    4,
+    1980,
+    'CONFIRMED'
+  ),
+(
+    169,
+    230,
+    '2026-06-14',
+    5,
+    35427,
+    'CONFIRMED'
+  ),
+(
+    46,
+    238,
+    '2026-06-23',
+    1,
+    41499,
+    'PENDING'
+  ),
+(
+    60,
+    164,
+    '2026-08-16',
+    2,
+    25765,
+    'CONFIRMED'
+  ),
+(
+    97,
+    18,
+    '2026-07-24',
+    1,
+    3655,
+    'CONFIRMED'
+  ),
+(
+    132,
+    223,
+    '2026-07-27',
+    2,
+    28173,
+    'CONFIRMED'
+  ),
+(
+    193,
+    156,
+    '2026-05-05',
+    1,
+    31776,
+    'PENDING'
+  ),
+(
+    73,
+    294,
+    '2026-07-17',
+    3,
+    45941,
+    'PENDING'
+  ),
+(
+    176,
+    213,
+    '2026-08-15',
+    2,
+    47835,
+    'CANCELLED'
+  ),
+(
+    67,
+    180,
+    '2026-06-23',
+    2,
+    45324,
+    'CANCELLED'
+  ),
+(
+    113,
+    279,
+    '2026-08-05',
+    2,
+    31964,
+    'PENDING'
+  ),
+(
+    6,
+    231,
+    '2026-06-30',
+    3,
+    25111,
+    'CANCELLED'
+  ),
+(
+    196,
+    293,
+    '2026-10-15',
+    5,
+    49944,
+    'CANCELLED'
+  ),
+(
+    140,
+    246,
+    '2026-09-19',
+    2,
+    10852,
+    'CANCELLED'
+  ),
+(
+    188,
+    179,
+    '2026-08-31',
+    5,
+    31589,
+    'PENDING'
+  ),
+(
+    82,
+    102,
+    '2026-07-12',
+    3,
+    31173,
+    'CANCELLED'
+  ),
+(
+    171,
+    147,
+    '2026-10-16',
+    4,
+    35969,
+    'CANCELLED'
+  ),
+(
+    169,
+    130,
+    '2026-06-25',
+    2,
+    16500,
+    'CONFIRMED'
+  ),
+(
+    192,
+    24,
+    '2026-06-11',
+    5,
+    49778,
+    'CANCELLED'
+  ),
+(
+    193,
+    282,
+    '2026-08-04',
+    4,
+    29141,
+    'PENDING'
+  ),
+(
+    14,
+    1,
+    '2026-08-25',
+    5,
+    12687,
+    'CONFIRMED'
+  ),
+(
+    106,
+    247,
+    '2026-06-22',
+    1,
+    18710,
+    'CANCELLED'
+  ),
+(
+    44,
+    46,
+    '2026-10-23',
+    3,
+    5053,
+    'CANCELLED'
+  ),
+(
+    17,
+    165,
+    '2026-07-28',
+    3,
+    24039,
+    'PENDING'
+  ),
+(
+    48,
+    205,
+    '2026-10-24',
+    3,
+    36985,
+    'CONFIRMED'
+  ),
+(
+    101,
+    141,
+    '2026-05-23',
+    4,
+    9611,
+    'CANCELLED'
+  ),
+(
+    28,
+    140,
+    '2026-09-02',
+    4,
+    45017,
+    'CONFIRMED'
+  ),
+(
+    154,
+    30,
+    '2026-07-11',
+    4,
+    21192,
+    'CONFIRMED'
+  ),
+(
+    147,
+    118,
+    '2026-06-09',
+    5,
+    22026,
+    'CANCELLED'
+  ),
+(
+    109,
+    100,
+    '2026-09-09',
+    1,
+    30871,
+    'CONFIRMED'
+  ),
+(
+    26,
+    122,
+    '2026-05-11',
+    5,
+    28825,
+    'PENDING'
+  ),
+(
+    163,
+    255,
+    '2026-10-20',
+    4,
+    23996,
+    'CONFIRMED'
+  ),
+(
+    114,
+    207,
+    '2026-10-03',
+    2,
+    15480,
+    'CONFIRMED'
+  ),
+(
+    27,
+    105,
+    '2026-06-21',
+    4,
+    33317,
+    'CONFIRMED'
+  ),
+(
+    20,
+    164,
+    '2026-05-15',
+    3,
+    9059,
+    'CANCELLED'
+  ),
+(
+    61,
+    123,
+    '2026-09-27',
+    2,
+    14747,
+    'CANCELLED'
+  ),
+(
+    85,
+    101,
+    '2026-05-08',
+    4,
+    39006,
+    'CANCELLED'
+  ),
+(
+    53,
+    11,
+    '2026-06-22',
+    5,
+    16695,
+    'CANCELLED'
+  ),
+(
+    121,
+    60,
+    '2026-06-23',
+    3,
+    10950,
+    'CONFIRMED'
+  ),
+(
+    29,
+    67,
+    '2026-09-18',
+    4,
+    27075,
+    'CANCELLED'
+  ),
+(
+    47,
+    83,
+    '2026-10-09',
+    2,
+    44139,
+    'PENDING'
+  ),
+(
+    57,
+    168,
+    '2026-07-04',
+    2,
+    43512,
+    'CANCELLED'
+  ),
+(
+    162,
+    275,
+    '2026-05-27',
+    2,
+    46591,
+    'PENDING'
+  ),
+(
+    42,
+    164,
+    '2026-05-01',
+    1,
+    39292,
+    'CANCELLED'
+  ),
+(
+    2,
+    121,
+    '2026-05-31',
+    4,
+    28470,
+    'CONFIRMED'
+  ),
+(
+    44,
+    228,
+    '2026-08-18',
+    5,
+    21642,
+    'CONFIRMED'
+  ),
+(
+    193,
+    115,
+    '2026-10-18',
+    5,
+    35588,
+    'CONFIRMED'
+  ),
+(
+    200,
+    131,
+    '2026-06-02',
+    5,
+    36525,
+    'CANCELLED'
+  ),
+(
+    166,
+    253,
+    '2026-07-27',
+    3,
+    36733,
+    'CONFIRMED'
+  ),
+(
+    24,
+    130,
+    '2026-05-15',
+    1,
+    29431,
+    'PENDING'
+  ),
+(
+    143,
+    33,
+    '2026-10-08',
+    1,
+    5786,
+    'CONFIRMED'
+  ),
+(
+    41,
+    3,
+    '2026-05-11',
+    2,
+    2598,
+    'PENDING'
+  ),
+(
+    186,
+    273,
+    '2026-07-03',
+    2,
+    9604,
+    'CANCELLED'
+  ),
+(
+    91,
+    19,
+    '2026-08-25',
+    1,
+    42359,
+    'PENDING'
+  ),
+(
+    116,
+    297,
+    '2026-06-11',
+    5,
+    16416,
+    'CONFIRMED'
+  ),
+(
+    146,
+    252,
+    '2026-06-29',
+    1,
+    34939,
+    'CANCELLED'
+  ),
+(
+    193,
+    217,
+    '2026-07-12',
+    3,
+    21765,
+    'CONFIRMED'
+  ),
+(
+    48,
+    72,
+    '2026-04-30',
+    4,
+    34580,
+    'PENDING'
+  ),
+(
+    67,
+    175,
+    '2026-05-21',
+    2,
+    36844,
+    'CANCELLED'
+  ),
+(
+    32,
+    24,
+    '2026-06-04',
+    4,
+    10672,
+    'CANCELLED'
+  ),
+(
+    135,
+    173,
+    '2026-10-05',
+    3,
+    15491,
+    'PENDING'
+  ),
+(
+    72,
+    5,
+    '2026-07-19',
+    1,
+    26680,
+    'CANCELLED'
+  ),
+(
+    197,
+    72,
+    '2026-09-15',
+    2,
+    28781,
+    'PENDING'
+  ),
+(
+    124,
+    219,
+    '2026-06-12',
+    5,
+    41255,
+    'PENDING'
+  ),
+(
+    71,
+    293,
+    '2026-07-07',
+    2,
+    17423,
+    'CANCELLED'
+  ),
+(
+    131,
+    103,
+    '2026-05-08',
+    5,
+    48043,
+    'CANCELLED'
+  ),
+(
+    9,
+    1,
+    '2026-10-13',
+    2,
+    30162,
+    'CANCELLED'
+  ),
+(
+    54,
+    3,
+    '2026-06-12',
+    4,
+    5061,
+    'CANCELLED'
+  ),
+(
+    134,
+    6,
+    '2026-10-19',
+    3,
+    9584,
+    'CANCELLED'
+  ),
+(
+    188,
+    133,
+    '2026-10-05',
+    2,
+    7478,
+    'PENDING'
+  ),
+(
+    153,
+    2,
+    '2026-05-23',
+    3,
+    38035,
+    'CANCELLED'
+  ),
+(
+    125,
+    230,
+    '2026-09-04',
+    3,
+    34360,
+    'CONFIRMED'
+  ),
+(
+    86,
+    69,
+    '2026-05-08',
+    3,
+    27340,
+    'PENDING'
+  ),
+(
+    118,
+    184,
+    '2026-09-03',
+    1,
+    41623,
+    'PENDING'
+  ),
+(
+    22,
+    263,
+    '2026-07-19',
+    5,
+    43802,
+    'PENDING'
+  ),
+(
+    169,
+    33,
+    '2026-08-20',
+    1,
+    2607,
+    'CANCELLED'
+  ),
+(
+    8,
+    81,
+    '2026-08-03',
+    4,
+    41676,
+    'CONFIRMED'
+  ),
+(
+    198,
+    20,
+    '2026-09-12',
+    2,
+    43312,
+    'PENDING'
+  ),
+(
+    179,
+    118,
+    '2026-06-29',
+    2,
+    14863,
+    'CANCELLED'
+  ),
+(
+    8,
+    57,
+    '2026-06-21',
+    5,
+    43612,
+    'CANCELLED'
+  ),
+(
+    31,
+    18,
+    '2026-05-16',
+    1,
+    24706,
+    'PENDING'
+  ),
+(
+    105,
+    237,
+    '2026-06-09',
+    2,
+    6048,
+    'CONFIRMED'
+  ),
+(
+    125,
+    109,
+    '2026-05-03',
+    2,
+    26832,
+    'CONFIRMED'
+  ),
+(
+    49,
+    265,
+    '2026-07-14',
+    1,
+    42021,
+    'CANCELLED'
+  ),
+(
+    101,
+    288,
+    '2026-05-21',
+    2,
+    6407,
+    'PENDING'
+  ),
+(
+    39,
+    32,
+    '2026-09-09',
+    3,
+    19137,
+    'CONFIRMED'
+  ),
+(
+    199,
+    57,
+    '2026-06-21',
+    4,
+    10770,
+    'PENDING'
+  ),
+(
+    107,
+    127,
+    '2026-10-24',
+    1,
+    40694,
+    'CONFIRMED'
+  ),
+(
+    56,
+    146,
+    '2026-06-29',
+    2,
+    4644,
+    'CANCELLED'
+  ),
+(
+    193,
+    122,
+    '2026-05-15',
+    5,
+    28512,
+    'CANCELLED'
+  ),
+(
+    164,
+    216,
+    '2026-09-04',
+    2,
+    28427,
+    'CANCELLED'
+  ),
+(
+    174,
+    66,
+    '2026-10-25',
+    5,
+    42281,
+    'CANCELLED'
+  ),
+(
+    23,
+    181,
+    '2026-07-09',
+    3,
+    18156,
+    'CANCELLED'
+  ),
+(
+    86,
+    109,
+    '2026-09-28',
+    2,
+    34180,
+    'CANCELLED'
+  ),
+(
+    112,
+    93,
+    '2026-07-08',
+    4,
+    8280,
+    'CONFIRMED'
+  ),
+(
+    2,
+    297,
+    '2026-08-14',
+    4,
+    7468,
+    'CONFIRMED'
+  ),
+(
+    49,
+    209,
+    '2026-05-27',
+    1,
+    13574,
+    'PENDING'
+  ),
+(
+    184,
+    257,
+    '2026-09-16',
+    4,
+    4591,
+    'PENDING'
+  ),
+(
+    75,
+    33,
+    '2026-09-09',
+    3,
+    33918,
+    'CONFIRMED'
+  ),
+(
+    114,
+    217,
+    '2026-08-07',
+    4,
+    27068,
+    'PENDING'
+  ),
+(
+    7,
+    160,
+    '2026-07-02',
+    2,
+    32191,
+    'PENDING'
+  ),
+(
+    190,
+    27,
+    '2026-08-19',
+    4,
+    28442,
+    'PENDING'
+  ),
+(
+    46,
+    239,
+    '2026-07-02',
+    4,
+    3361,
+    'CANCELLED'
+  ),
+(
+    66,
+    199,
+    '2026-05-09',
+    2,
+    5892,
+    'PENDING'
+  ),
+(
+    84,
+    49,
+    '2026-08-17',
+    1,
+    47344,
+    'CONFIRMED'
+  ),
+(
+    93,
+    7,
+    '2026-08-20',
+    3,
+    35324,
+    'CANCELLED'
+  ),
+(
+    185,
+    247,
+    '2026-09-20',
+    4,
+    47779,
+    'CONFIRMED'
+  ),
+(
+    23,
+    287,
+    '2026-09-24',
+    2,
+    1723,
+    'PENDING'
+  ),
+(
+    183,
+    219,
+    '2026-06-13',
+    3,
+    23694,
+    'CONFIRMED'
+  ),
+(
+    47,
+    174,
+    '2026-08-27',
+    1,
+    45248,
+    'CANCELLED'
+  ),
+(
+    142,
+    288,
+    '2026-09-27',
+    4,
+    49015,
+    'CONFIRMED'
+  ),
+(
+    90,
+    240,
+    '2026-10-20',
+    2,
+    26947,
+    'PENDING'
+  ),
+(
+    134,
+    208,
+    '2026-09-14',
+    4,
+    27912,
+    'PENDING'
+  ),
+(
+    65,
+    169,
+    '2026-05-07',
+    4,
+    3557,
+    'CONFIRMED'
+  ),
+(
+    63,
+    87,
+    '2026-06-10',
+    1,
+    2051,
+    'CANCELLED'
+  ),
+(
+    82,
+    79,
+    '2026-06-25',
+    1,
+    49492,
+    'PENDING'
+  ),
+(
+    66,
+    194,
+    '2026-09-28',
+    1,
+    49578,
+    'CANCELLED'
+  ),
+(
+    19,
+    233,
+    '2026-10-14',
+    1,
+    5938,
+    'CANCELLED'
+  ),
+(
+    110,
+    20,
+    '2026-08-03',
+    4,
+    27078,
+    'PENDING'
+  ),
+(
+    35,
+    234,
+    '2026-09-28',
+    1,
+    37820,
+    'CANCELLED'
+  ),
+(
+    28,
+    93,
+    '2026-07-21',
+    2,
+    43672,
+    'CONFIRMED'
+  ),
+(
+    4,
+    177,
+    '2026-07-04',
+    2,
+    26382,
+    'CONFIRMED'
+  ),
+(
+    83,
+    70,
+    '2026-07-13',
+    2,
+    8540,
+    'CANCELLED'
+  ),
+(
+    56,
+    36,
+    '2026-05-06',
+    5,
+    13007,
+    'CANCELLED'
+  ),
+(
+    146,
+    274,
+    '2026-09-05',
+    3,
+    5568,
+    'PENDING'
+  ),
+(
+    200,
+    215,
+    '2026-08-18',
+    2,
+    10382,
+    'CANCELLED'
+  ),
+(
+    79,
+    232,
+    '2026-05-19',
+    4,
+    38280,
+    'PENDING'
+  ),
+(
+    199,
+    65,
+    '2026-07-11',
+    5,
+    22592,
+    'PENDING'
+  ),
+(
+    51,
+    228,
+    '2026-06-18',
+    4,
+    15347,
+    'CANCELLED'
+  ),
+(
+    102,
+    190,
+    '2026-06-26',
+    5,
+    25372,
+    'CONFIRMED'
+  ),
+(
+    15,
+    207,
+    '2026-09-22',
+    2,
+    14157,
+    'CANCELLED'
+  ),
+(
+    29,
+    224,
+    '2026-10-09',
+    3,
+    15651,
+    'CONFIRMED'
+  ),
+(
+    92,
+    39,
+    '2026-09-22',
+    4,
+    36671,
+    'PENDING'
+  ),
+(
+    142,
+    139,
+    '2026-07-01',
+    4,
+    39020,
+    'CANCELLED'
+  ),
+(
+    96,
+    168,
+    '2026-07-07',
+    5,
+    14161,
+    'CANCELLED'
+  ),
+(
+    74,
+    32,
+    '2026-08-10',
+    2,
+    2622,
+    'CONFIRMED'
+  ),
+(
+    42,
+    261,
+    '2026-06-16',
+    3,
+    6232,
+    'CONFIRMED'
+  ),
+(
+    104,
+    120,
+    '2026-09-04',
+    2,
+    38649,
+    'CONFIRMED'
+  ),
+(
+    95,
+    86,
+    '2026-06-28',
+    2,
+    16783,
+    'PENDING'
+  ),
+(
+    200,
+    13,
+    '2026-10-14',
+    2,
+    39052,
+    'CONFIRMED'
+  ),
+(
+    101,
+    209,
+    '2026-05-13',
+    1,
+    34332,
+    'CANCELLED'
+  ),
+(
+    65,
+    270,
+    '2026-07-06',
+    4,
+    13204,
+    'PENDING'
+  ),
+(
+    15,
+    152,
+    '2026-05-01',
+    2,
+    46683,
+    'PENDING'
+  ),
+(
+    91,
+    295,
+    '2026-08-29',
+    1,
+    26150,
+    'CANCELLED'
+  ),
+(
+    121,
+    210,
+    '2026-08-13',
+    2,
+    26360,
+    'CANCELLED'
+  ),
+(
+    119,
+    243,
+    '2026-10-23',
+    2,
+    15873,
+    'CONFIRMED'
+  ),
+(
+    99,
+    203,
+    '2026-06-17',
+    5,
+    40189,
+    'CONFIRMED'
+  ),
+(
+    112,
+    240,
+    '2026-06-27',
+    1,
+    27803,
+    'CONFIRMED'
+  ),
+(
+    9,
+    159,
+    '2026-07-16',
+    3,
+    6724,
+    'CONFIRMED'
+  ),
+(
+    156,
+    214,
+    '2026-09-15',
+    4,
+    30793,
+    'CONFIRMED'
+  ),
+(
+    71,
+    195,
+    '2026-09-26',
+    2,
+    41585,
+    'PENDING'
+  ),
+(
+    98,
+    204,
+    '2026-08-22',
+    5,
+    25724,
+    'CANCELLED'
+  ),
+(
+    71,
+    218,
+    '2026-06-02',
+    1,
+    39036,
+    'PENDING'
+  ),
+(
+    12,
+    54,
+    '2026-08-19',
+    1,
+    2305,
+    'CONFIRMED'
+  ),
+(
+    106,
+    35,
+    '2026-10-23',
+    4,
+    4959,
+    'PENDING'
+  ),
+(
+    89,
+    191,
+    '2026-09-10',
+    4,
+    22010,
+    'PENDING'
+  ),
+(
+    15,
+    88,
+    '2026-10-23',
+    1,
+    45490,
+    'PENDING'
+  ),
+(
+    190,
+    158,
+    '2026-06-25',
+    4,
+    28394,
+    'CONFIRMED'
+  ),
+(
+    35,
+    226,
+    '2026-07-23',
+    3,
+    42938,
+    'CONFIRMED'
+  ),
+(
+    188,
+    277,
+    '2026-08-01',
+    3,
+    14305,
+    'CANCELLED'
+  ),
+(
+    61,
+    178,
+    '2026-05-28',
+    3,
+    33995,
+    'CONFIRMED'
+  ),
+(
+    66,
+    187,
+    '2026-08-25',
+    3,
+    34797,
+    'CANCELLED'
+  ),
+(
+    56,
+    40,
+    '2026-05-02',
+    5,
+    15395,
+    'CANCELLED'
+  ),
+(
+    186,
+    107,
+    '2026-10-17',
+    2,
+    40273,
+    'CONFIRMED'
+  ),
+(
+    26,
+    243,
+    '2026-10-03',
+    5,
+    34855,
+    'PENDING'
+  ),
+(
+    18,
+    23,
+    '2026-09-05',
+    2,
+    15910,
+    'PENDING'
+  ),
+(
+    59,
+    80,
+    '2026-09-21',
+    1,
+    45973,
+    'CONFIRMED'
+  ),
+(
+    12,
+    275,
+    '2026-09-13',
+    2,
+    24586,
+    'CONFIRMED'
+  ),
+(
+    33,
+    128,
+    '2026-06-15',
+    1,
+    39909,
+    'CONFIRMED'
+  ),
+(
+    88,
+    81,
+    '2026-07-12',
+    1,
+    24453,
+    'PENDING'
+  ),
+(
+    34,
+    226,
+    '2026-09-19',
+    1,
+    32760,
+    'CONFIRMED'
+  ),
+(
+    30,
+    40,
+    '2026-09-25',
+    4,
+    8077,
+    'CONFIRMED'
+  ),
+(
+    102,
+    180,
+    '2026-05-17',
+    2,
+    6801,
+    'PENDING'
+  ),
+(
+    128,
+    108,
+    '2026-07-19',
+    3,
+    10590,
+    'CANCELLED'
+  ),
+(
+    171,
+    50,
+    '2026-06-05',
+    4,
+    31397,
+    'PENDING'
+  ),
+(
+    36,
+    173,
+    '2026-05-12',
+    4,
+    11264,
+    'CANCELLED'
+  ),
+(
+    42,
+    258,
+    '2026-08-01',
+    4,
+    28565,
+    'CANCELLED'
+  ),
+(
+    51,
+    5,
+    '2026-05-10',
+    5,
+    14853,
+    'CONFIRMED'
+  ),
+(
+    171,
+    294,
+    '2026-08-14',
+    5,
+    14385,
+    'CONFIRMED'
+  ),
+(
+    179,
+    159,
+    '2026-09-18',
+    1,
+    13763,
+    'CANCELLED'
+  ),
+(
+    139,
+    293,
+    '2026-10-07',
+    2,
+    7774,
+    'PENDING'
+  ),
+(
+    71,
+    87,
+    '2026-06-24',
+    2,
+    12346,
+    'PENDING'
+  ),
+(
+    122,
+    251,
+    '2026-05-08',
+    3,
+    15575,
+    'PENDING'
+  ),
+(
+    147,
+    92,
+    '2026-10-22',
+    5,
+    33960,
+    'CANCELLED'
+  ),
+(
+    187,
+    207,
+    '2026-09-22',
+    3,
+    15807,
+    'CANCELLED'
+  ),
+(
+    26,
+    50,
+    '2026-10-12',
+    1,
+    15849,
+    'CONFIRMED'
+  ),
+(
+    136,
+    30,
+    '2026-09-03',
+    2,
+    25934,
+    'CANCELLED'
+  ),
+(
+    100,
+    146,
+    '2026-06-22',
+    2,
+    21290,
+    'CONFIRMED'
+  ),
+(
+    55,
+    250,
+    '2026-05-24',
+    4,
+    5164,
+    'PENDING'
+  ),
+(
+    108,
+    261,
+    '2026-08-26',
+    3,
+    10123,
+    'CONFIRMED'
+  ),
+(
+    120,
+    265,
+    '2026-09-13',
+    2,
+    32971,
+    'CONFIRMED'
+  ),
+(
+    43,
+    210,
+    '2026-05-15',
+    3,
+    34688,
+    'CONFIRMED'
+  ),
+(
+    141,
+    32,
+    '2026-09-23',
+    4,
+    21721,
+    'PENDING'
+  ),
+(
+    136,
+    86,
+    '2026-10-23',
+    3,
+    26769,
+    'PENDING'
+  ),
+(
+    105,
+    244,
+    '2026-06-29',
+    1,
+    20269,
+    'CONFIRMED'
+  ),
+(
+    32,
+    278,
+    '2026-05-10',
+    1,
+    26413,
+    'PENDING'
+  ),
+(
+    164,
+    77,
+    '2026-05-09',
+    5,
+    23501,
+    'CANCELLED'
+  ),
+(
+    101,
+    60,
+    '2026-06-16',
+    3,
+    14688,
+    'CONFIRMED'
+  ),
+(
+    102,
+    225,
+    '2026-08-16',
+    4,
+    39173,
+    'PENDING'
+  ),
+(
+    70,
+    240,
+    '2026-09-13',
+    1,
+    43296,
+    'PENDING'
+  ),
+(
+    41,
+    174,
+    '2026-08-04',
+    4,
+    42406,
+    'CANCELLED'
+  ),
+(
+    39,
+    89,
+    '2026-07-02',
+    4,
+    48650,
+    'CONFIRMED'
+  ),
+(
+    169,
+    19,
+    '2026-06-17',
+    2,
+    36903,
+    'PENDING'
+  ),
+(
+    162,
+    209,
+    '2026-10-22',
+    2,
+    17622,
+    'PENDING'
+  ),
+(
+    183,
+    167,
+    '2026-10-19',
+    5,
+    41763,
+    'PENDING'
+  ),
+(
+    25,
+    228,
+    '2026-09-19',
+    1,
+    22229,
+    'CONFIRMED'
+  ),
+(
+    90,
+    212,
+    '2026-05-09',
+    4,
+    9741,
+    'PENDING'
+  ),
+(
+    94,
+    170,
+    '2026-09-02',
+    1,
+    21925,
+    'CANCELLED'
+  ),
+(
+    65,
+    105,
+    '2026-05-09',
+    4,
+    3905,
+    'PENDING'
+  ),
+(
+    142,
+    37,
+    '2026-06-24',
+    4,
+    33289,
+    'CANCELLED'
+  ),
+(
+    50,
+    102,
+    '2026-06-24',
+    3,
+    19894,
+    'PENDING'
+  ),
+(
+    65,
+    211,
+    '2026-07-06',
+    3,
+    10128,
+    'CONFIRMED'
+  ),
+(
+    124,
+    235,
+    '2026-09-11',
+    3,
+    21112,
+    'CONFIRMED'
+  ),
+(
+    75,
+    71,
+    '2026-07-15',
+    4,
+    43649,
+    'PENDING'
+  ),
+(
+    149,
+    125,
+    '2026-05-25',
+    5,
+    35527,
+    'PENDING'
+  ),
+(
+    142,
+    141,
+    '2026-05-03',
+    3,
+    26113,
+    'PENDING'
+  ),
+(
+    84,
+    27,
+    '2026-08-02',
+    2,
+    12268,
+    'CANCELLED'
+  ),
+(
+    79,
+    140,
+    '2026-05-12',
+    5,
+    34833,
+    'CANCELLED'
+  ),
+(
+    109,
+    182,
+    '2026-09-22',
+    3,
+    30447,
+    'CANCELLED'
+  ),
+(
+    48,
+    16,
+    '2026-07-03',
+    2,
+    35368,
+    'CANCELLED'
+  ),
+(
+    184,
+    24,
+    '2026-10-10',
+    4,
+    29567,
+    'PENDING'
+  ),
+(
+    134,
+    81,
+    '2026-05-13',
+    5,
+    32778,
+    'PENDING'
+  ),
+(
+    136,
+    114,
+    '2026-07-22',
+    1,
+    28594,
+    'CONFIRMED'
+  ),
+(
+    41,
+    36,
+    '2026-10-26',
+    2,
+    38789,
+    'CANCELLED'
+  ),
+(
+    137,
+    70,
+    '2026-10-17',
+    1,
+    17306,
+    'CANCELLED'
+  ),
+(
+    83,
+    147,
+    '2026-09-02',
+    3,
+    34959,
+    'CONFIRMED'
+  ),
+(
+    180,
+    96,
+    '2026-07-18',
+    1,
+    28202,
+    'CANCELLED'
+  ),
+(
+    23,
+    40,
+    '2026-05-11',
+    1,
+    25494,
+    'PENDING'
+  ),
+(
+    3,
+    54,
+    '2026-07-28',
+    3,
+    8675,
+    'CONFIRMED'
+  ),
+(
+    138,
+    44,
+    '2026-09-10',
+    5,
+    17388,
+    'PENDING'
+  ),
+(
+    199,
+    286,
+    '2026-05-14',
+    1,
+    14281,
+    'PENDING'
+  ),
+(
+    62,
+    155,
+    '2026-06-23',
+    5,
+    6062,
+    'CONFIRMED'
+  ),
+(
+    131,
+    199,
+    '2026-05-04',
+    4,
+    34414,
+    'CONFIRMED'
+  ),
+(
+    68,
+    193,
+    '2026-08-11',
+    5,
+    41320,
+    'CONFIRMED'
+  ),
+(
+    191,
+    101,
+    '2026-06-23',
+    1,
+    19602,
+    'CONFIRMED'
+  ),
+(
+    103,
+    38,
+    '2026-09-10',
+    4,
+    23136,
+    'PENDING'
+  ),
+(
+    140,
+    278,
+    '2026-05-10',
+    4,
+    23501,
+    'CONFIRMED'
+  ),
+(
+    25,
+    264,
+    '2026-06-02',
+    1,
+    32236,
+    'PENDING'
+  ),
+(
+    136,
+    243,
+    '2026-08-07',
+    1,
+    9857,
+    'CONFIRMED'
+  ),
+(
+    173,
+    93,
+    '2026-10-01',
+    3,
+    38663,
+    'CONFIRMED'
+  ),
+(
+    171,
+    160,
+    '2026-09-17',
+    2,
+    5079,
+    'PENDING'
+  ),
+(
+    129,
+    260,
+    '2026-05-18',
+    4,
+    27497,
+    'PENDING'
+  ),
+(
+    92,
+    282,
+    '2026-08-08',
+    2,
+    30044,
+    'CANCELLED'
+  ),
+(
+    55,
+    175,
+    '2026-07-10',
+    2,
+    31393,
+    'CANCELLED'
+  ),
+(
+    23,
+    133,
+    '2026-08-27',
+    3,
+    26228,
+    'CONFIRMED'
+  ),
+(
+    93,
+    139,
+    '2026-07-17',
+    2,
+    45592,
+    'CONFIRMED'
+  ),
+(
+    10,
+    137,
+    '2026-06-19',
+    3,
+    19509,
+    'CONFIRMED'
+  ),
+(
+    175,
+    255,
+    '2026-10-21',
+    5,
+    29014,
+    'CANCELLED'
+  ),
+(
+    89,
+    117,
+    '2026-10-20',
+    3,
+    5341,
+    'CONFIRMED'
+  ),
+(
+    11,
+    190,
+    '2026-06-17',
+    2,
+    48890,
+    'CONFIRMED'
+  ),
+(
+    52,
+    171,
+    '2026-08-18',
+    4,
+    23350,
+    'CANCELLED'
+  ),
+(
+    29,
+    297,
+    '2026-10-08',
+    4,
+    34363,
+    'CONFIRMED'
+  ),
+(
+    142,
+    75,
+    '2026-08-08',
+    4,
+    17962,
+    'CONFIRMED'
+  ),
+(
+    77,
+    119,
+    '2026-09-14',
+    5,
+    27935,
+    'CANCELLED'
+  ),
+(
+    29,
+    186,
+    '2026-10-03',
+    5,
+    4889,
+    'PENDING'
+  ),
+(
+    22,
+    141,
+    '2026-10-06',
+    1,
+    28236,
+    'PENDING'
+  ),
+(
+    85,
+    283,
+    '2026-07-08',
+    1,
+    32455,
+    'CONFIRMED'
+  ),
+(
+    51,
+    123,
+    '2026-08-20',
+    2,
+    7538,
+    'CANCELLED'
+  ),
+(
+    76,
+    169,
+    '2026-10-23',
+    2,
+    31603,
+    'PENDING'
+  ),
+(
+    114,
+    269,
+    '2026-09-07',
+    5,
+    37354,
+    'CONFIRMED'
+  ),
+(
+    127,
+    67,
+    '2026-06-30',
+    2,
+    29165,
+    'PENDING'
+  ),
+(
+    62,
+    153,
+    '2026-07-24',
+    3,
+    22080,
+    'CONFIRMED'
+  ),
+(
+    56,
+    100,
+    '2026-07-22',
+    3,
+    23135,
+    'CONFIRMED'
+  ),
+(
+    115,
+    148,
+    '2026-06-23',
+    2,
+    12137,
+    'CANCELLED'
+  ),
+(
+    85,
+    297,
+    '2026-05-29',
+    4,
+    32849,
+    'CONFIRMED'
+  ),
+(
+    184,
+    198,
+    '2026-09-28',
+    1,
+    40675,
+    'PENDING'
+  ),
+(
+    160,
+    172,
+    '2026-10-11',
+    1,
+    22776,
+    'CONFIRMED'
+  ),
+(
+    24,
+    116,
+    '2026-07-15',
+    1,
+    21071,
+    'PENDING'
+  ),
+(
+    184,
+    178,
+    '2026-07-08',
+    2,
+    42556,
+    'CANCELLED'
+  ),
+(
+    164,
+    154,
+    '2026-05-10',
+    3,
+    44603,
+    'CONFIRMED'
+  ),
+(
+    172,
+    101,
+    '2026-10-26',
+    3,
+    9249,
+    'PENDING'
+  ),
+(
+    13,
+    117,
+    '2026-08-19',
+    1,
+    19722,
+    'CANCELLED'
+  ),
+(
+    65,
+    97,
+    '2026-09-05',
+    1,
+    26434,
+    'PENDING'
+  ),
+(
+    54,
+    5,
+    '2026-10-05',
+    5,
+    27853,
+    'PENDING'
+  ),
+(
+    71,
+    203,
+    '2026-08-05',
+    1,
+    25041,
+    'CANCELLED'
+  ),
+(
+    189,
+    293,
+    '2026-09-13',
+    5,
+    5541,
+    'CANCELLED'
+  ),
+(
+    104,
+    16,
+    '2026-07-22',
+    1,
+    40327,
+    'CONFIRMED'
+  ),
+(
+    93,
+    86,
+    '2026-05-20',
+    4,
+    18914,
+    'CANCELLED'
+  ),
+(
+    45,
+    97,
+    '2026-06-20',
+    4,
+    37601,
+    'PENDING'
+  ),
+(
+    185,
+    3,
+    '2026-09-18',
+    1,
+    5508,
+    'CONFIRMED'
+  ),
+(
+    131,
+    213,
+    '2026-07-12',
+    3,
+    35168,
+    'CANCELLED'
+  ),
+(
+    79,
+    156,
+    '2026-10-05',
+    3,
+    42677,
+    'PENDING'
+  ),
+(
+    35,
+    262,
+    '2026-05-27',
+    2,
+    14770,
+    'CANCELLED'
+  ),
+(
+    74,
+    65,
+    '2026-07-15',
+    3,
+    29186,
+    'CONFIRMED'
+  ),
+(
+    34,
+    80,
+    '2026-09-09',
+    4,
+    32608,
+    'PENDING'
+  ),
+(
+    154,
+    112,
+    '2026-07-04',
+    4,
+    17060,
+    'PENDING'
+  ),
+(
+    132,
+    189,
+    '2026-09-21',
+    2,
+    44552,
+    'PENDING'
+  ),
+(
+    158,
+    297,
+    '2026-06-09',
+    3,
+    39473,
+    'CONFIRMED'
+  ),
+(
+    42,
+    94,
+    '2026-06-12',
+    2,
+    34010,
+    'CANCELLED'
+  ),
+(
+    72,
+    252,
+    '2026-07-04',
+    4,
+    44717,
+    'PENDING'
+  ),
+(
+    195,
+    174,
+    '2026-05-23',
+    3,
+    36653,
+    'PENDING'
+  ),
+(
+    172,
+    275,
+    '2026-09-23',
+    3,
+    10637,
+    'PENDING'
+  ),
+(
+    162,
+    187,
+    '2026-08-28',
+    3,
+    48618,
+    'PENDING'
+  ),
+(
+    176,
+    227,
+    '2026-07-09',
+    1,
+    24896,
+    'PENDING'
+  ),
+(
+    111,
+    224,
+    '2026-07-01',
+    1,
+    4117,
+    'CANCELLED'
+  ),
+(
+    15,
+    204,
+    '2026-07-06',
+    2,
+    37307,
+    'CONFIRMED'
+  ),
+(
+    99,
+    44,
+    '2026-09-24',
+    2,
+    11925,
+    'CONFIRMED'
+  ),
+(
+    3,
+    77,
+    '2026-10-26',
+    2,
+    10404,
+    'CANCELLED'
+  ),
+(
+    181,
+    223,
+    '2026-06-27',
+    4,
+    1595,
+    'PENDING'
+  ),
+(
+    120,
+    203,
+    '2026-08-05',
+    4,
+    21403,
+    'PENDING'
+  ),
+(
+    184,
+    38,
+    '2026-06-17',
+    3,
+    36606,
+    'CONFIRMED'
+  ),
+(
+    132,
+    223,
+    '2026-06-10',
+    2,
+    14565,
+    'CONFIRMED'
+  ),
+(
+    152,
+    62,
+    '2026-05-07',
+    4,
+    38784,
+    'CANCELLED'
+  ),
+(
+    1,
+    143,
+    '2026-10-25',
+    3,
+    34248,
+    'CANCELLED'
+  ),
+(
+    78,
+    232,
+    '2026-09-17',
+    5,
+    42544,
+    'CANCELLED'
+  ),
+(
+    122,
+    256,
+    '2026-08-27',
+    5,
+    6801,
+    'CANCELLED'
+  ),
+(
+    170,
+    229,
+    '2026-10-20',
+    3,
+    29440,
+    'PENDING'
+  ),
+(
+    109,
+    153,
+    '2026-07-03',
+    1,
+    26791,
+    'PENDING'
+  ),
+(
+    79,
+    80,
+    '2026-08-29',
+    4,
+    10446,
+    'PENDING'
+  ),
+(
+    57,
+    152,
+    '2026-06-25',
+    3,
+    49499,
+    'CANCELLED'
+  ),
+(
+    76,
+    199,
+    '2026-07-03',
+    5,
+    7253,
+    'PENDING'
+  ),
+(
+    192,
+    49,
+    '2026-06-19',
+    4,
+    2174,
+    'CANCELLED'
+  ),
+(
+    97,
+    289,
+    '2026-05-27',
+    4,
+    39209,
+    'CONFIRMED'
+  ),
+(
+    43,
+    161,
+    '2026-10-17',
+    2,
+    48044,
+    'CANCELLED'
+  ),
+(
+    125,
+    118,
+    '2026-10-06',
+    5,
+    36040,
+    'CONFIRMED'
+  ),
+(
+    11,
+    149,
+    '2026-05-12',
+    3,
+    39573,
+    'CONFIRMED'
+  ),
+(
+    4,
+    242,
+    '2026-10-11',
+    3,
+    38537,
+    'CANCELLED'
+  ),
+(
+    57,
+    193,
+    '2026-09-27',
+    3,
+    16295,
+    'CANCELLED'
+  ),
+(
+    117,
+    258,
+    '2026-06-14',
+    2,
+    18771,
+    'PENDING'
+  ),
+(
+    46,
+    95,
+    '2026-05-20',
+    1,
+    36665,
+    'PENDING'
+  ),
+(
+    75,
+    235,
+    '2026-10-15',
+    2,
+    1354,
+    'PENDING'
+  ),
+(
+    158,
+    268,
+    '2026-10-21',
+    4,
+    21834,
+    'CONFIRMED'
+  ),
+(
+    119,
+    106,
+    '2026-09-30',
+    3,
+    47578,
+    'CONFIRMED'
+  ),
+(
+    100,
+    225,
+    '2026-07-12',
+    4,
+    7125,
+    'CONFIRMED'
+  ),
+(
+    76,
+    32,
+    '2026-05-25',
+    4,
+    21203,
+    'CONFIRMED'
+  ),
+(
+    168,
+    185,
+    '2026-07-13',
+    5,
+    4371,
+    'PENDING'
+  ),
+(
+    192,
+    219,
+    '2026-07-09',
+    5,
+    46126,
+    'CONFIRMED'
+  ),
+(
+    199,
+    148,
+    '2026-06-20',
+    5,
+    26296,
+    'CONFIRMED'
+  ),
+(
+    36,
+    160,
+    '2026-05-17',
+    2,
+    15042,
+    'CANCELLED'
+  ),
+(
+    79,
+    101,
+    '2026-06-24',
+    4,
+    41334,
+    'CANCELLED'
+  ),
+(
+    69,
+    259,
+    '2026-10-19',
+    1,
+    29410,
+    'CANCELLED'
+  ),
+(
+    110,
+    272,
+    '2026-09-19',
+    2,
+    46350,
+    'PENDING'
+  ),
+(
+    36,
+    283,
+    '2026-08-05',
+    1,
+    21731,
+    'CONFIRMED'
+  ),
+(
+    132,
+    227,
+    '2026-10-20',
+    4,
+    37888,
+    'PENDING'
+  ),
+(
+    153,
+    176,
+    '2026-06-09',
+    5,
+    36939,
+    'CONFIRMED'
+  ),
+(
+    26,
+    73,
+    '2026-08-19',
+    1,
+    4669,
+    'CANCELLED'
+  ),
+(
+    161,
+    167,
+    '2026-09-20',
+    3,
+    30352,
+    'PENDING'
+  ),
+(
+    162,
+    296,
+    '2026-09-05',
+    1,
+    8182,
+    'CANCELLED'
+  ),
+(
+    110,
+    216,
+    '2026-06-07',
+    1,
+    21587,
+    'PENDING'
+  ),
+(
+    61,
+    220,
+    '2026-08-28',
+    1,
+    47016,
+    'CANCELLED'
+  ),
+(
+    142,
+    186,
+    '2026-07-17',
+    5,
+    1795,
+    'CONFIRMED'
+  ),
+(
+    20,
+    67,
+    '2026-05-19',
+    1,
+    43488,
+    'CANCELLED'
+  ),
+(
+    116,
+    266,
+    '2026-06-27',
+    1,
+    9316,
+    'CONFIRMED'
+  ),
+(
+    59,
+    14,
+    '2026-08-12',
+    4,
+    39888,
+    'CONFIRMED'
+  ),
+(
+    185,
+    87,
+    '2026-09-09',
+    2,
+    43133,
+    'PENDING'
+  ),
+(
+    132,
+    95,
+    '2026-07-12',
+    1,
+    9788,
+    'CANCELLED'
+  ),
+(
+    133,
+    179,
+    '2026-08-12',
+    2,
+    16578,
+    'CANCELLED'
+  ),
+(
+    100,
+    244,
+    '2026-07-23',
+    1,
+    6636,
+    'PENDING'
+  ),
+(
+    169,
+    277,
+    '2026-06-23',
+    4,
+    42183,
+    'CANCELLED'
+  ),
+(
+    17,
+    273,
+    '2026-09-27',
+    4,
+    7530,
+    'CONFIRMED'
+  ),
+(
+    54,
+    228,
+    '2026-07-21',
+    4,
+    35662,
+    'CONFIRMED'
+  ),
+(
+    92,
+    172,
+    '2026-09-30',
+    4,
+    31679,
+    'CANCELLED'
+  ),
+(
+    126,
+    98,
+    '2026-06-27',
+    1,
+    48257,
+    'CONFIRMED'
+  ),
+(
+    78,
+    273,
+    '2026-07-25',
+    1,
+    7164,
+    'PENDING'
+  ),
+(
+    165,
+    130,
+    '2026-06-25',
+    2,
+    46868,
+    'CANCELLED'
+  ),
+(
+    136,
+    210,
+    '2026-09-07',
+    5,
+    31835,
+    'CANCELLED'
+  ),
+(
+    56,
+    259,
+    '2026-09-25',
+    2,
+    9192,
+    'CANCELLED'
+  ),
+(
+    126,
+    156,
+    '2026-05-22',
+    4,
+    28797,
+    'PENDING'
+  ),
+(
+    67,
+    203,
+    '2026-10-15',
+    3,
+    32922,
+    'PENDING'
+  ),
+(
+    46,
+    192,
+    '2026-09-24',
+    2,
+    17177,
+    'CONFIRMED'
+  ),
+(
+    124,
+    7,
+    '2026-08-28',
+    3,
+    28560,
+    'CANCELLED'
+  ),
+(
+    165,
+    135,
+    '2026-09-08',
+    1,
+    23481,
+    'PENDING'
+  ),
+(
+    42,
+    265,
+    '2026-05-25',
+    4,
+    43185,
+    'CONFIRMED'
+  ),
+(
+    107,
+    73,
+    '2026-05-09',
+    5,
+    25160,
+    'PENDING'
+  ),
+(
+    191,
+    186,
+    '2026-08-05',
+    1,
+    41722,
+    'CANCELLED'
+  ),
+(
+    131,
+    176,
+    '2026-10-20',
+    4,
+    38238,
+    'CONFIRMED'
+  ),
+(
+    58,
+    140,
+    '2026-10-26',
+    1,
+    15489,
+    'PENDING'
+  ),
+(
+    140,
+    77,
+    '2026-07-28',
+    4,
+    4105,
+    'PENDING'
+  ),
+(
+    102,
+    203,
+    '2026-07-12',
+    1,
+    16674,
+    'CANCELLED'
+  ),
+(
+    26,
+    288,
+    '2026-09-30',
+    1,
+    39473,
+    'CONFIRMED'
+  ),
+(
+    11,
+    196,
+    '2026-07-29',
+    4,
+    22022,
+    'PENDING'
+  ),
+(
+    177,
+    279,
+    '2026-07-08',
+    3,
+    30324,
+    'CANCELLED'
+  ),
+(
+    81,
+    244,
+    '2026-10-04',
+    3,
+    25273,
+    'CANCELLED'
+  ),
+(
+    178,
+    172,
+    '2026-07-23',
+    5,
+    15055,
+    'PENDING'
+  ),
+(
+    145,
+    275,
+    '2026-07-18',
+    5,
+    10670,
+    'PENDING'
+  ),
+(
+    143,
+    7,
+    '2026-09-15',
+    1,
+    25128,
+    'CONFIRMED'
+  ),
+(
+    179,
+    300,
+    '2026-08-02',
+    4,
+    6937,
+    'CONFIRMED'
+  ),
+(
+    180,
+    157,
+    '2026-10-08',
+    5,
+    15680,
+    'CANCELLED'
+  ),
+(
+    64,
+    240,
+    '2026-08-01',
+    1,
+    12405,
+    'CANCELLED'
+  ),
+(
+    112,
+    111,
+    '2026-07-24',
+    1,
+    14426,
+    'CANCELLED'
+  ),
+(
+    179,
+    215,
+    '2026-05-31',
+    2,
+    13558,
+    'PENDING'
+  ),
+(
+    59,
+    49,
+    '2026-09-02',
+    5,
+    47545,
+    'CANCELLED'
+  ),
+(
+    138,
+    130,
+    '2026-05-03',
+    2,
+    29917,
+    'CANCELLED'
+  ),
+(
+    197,
+    57,
+    '2026-06-06',
+    4,
+    29032,
+    'CANCELLED'
+  ),
+(
+    42,
+    55,
+    '2026-07-27',
+    4,
+    21615,
+    'CANCELLED'
+  ),
+(
+    17,
+    84,
+    '2026-08-24',
+    5,
+    6162,
+    'CONFIRMED'
+  ),
+(
+    86,
+    183,
+    '2026-10-05',
+    3,
+    23719,
+    'CANCELLED'
+  ),
+(
+    68,
+    252,
+    '2026-08-24',
+    4,
+    20743,
+    'PENDING'
+  ),
+(
+    28,
+    60,
+    '2026-05-17',
+    5,
+    23596,
+    'CONFIRMED'
+  ),
+(
+    82,
+    60,
+    '2026-07-31',
+    5,
+    30112,
+    'CONFIRMED'
+  ),
+(
+    84,
+    182,
+    '2026-07-11',
+    1,
+    33475,
+    'PENDING'
+  ),
+(
+    12,
+    31,
+    '2026-06-12',
+    1,
+    47746,
+    'CANCELLED'
+  ),
+(
+    162,
+    141,
+    '2026-07-22',
+    3,
+    49578,
+    'CANCELLED'
+  ),
+(
+    10,
+    290,
+    '2026-05-17',
+    5,
+    23188,
+    'CONFIRMED'
+  ),
+(
+    53,
+    179,
+    '2026-05-21',
+    3,
+    6075,
+    'CONFIRMED'
+  ),
+(
+    105,
+    133,
+    '2026-07-17',
+    2,
+    30110,
+    'CONFIRMED'
+  ),
+(
+    80,
+    12,
+    '2026-06-02',
+    2,
+    9569,
+    'CANCELLED'
+  ),
+(
+    48,
+    136,
+    '2026-05-16',
+    4,
+    2663,
+    'CONFIRMED'
+  ),
+(
+    67,
+    183,
+    '2026-08-03',
+    2,
+    43705,
+    'CONFIRMED'
+  ),
+(
+    5,
+    70,
+    '2026-05-08',
+    2,
+    6237,
+    'CONFIRMED'
+  ),
+(
+    146,
+    245,
+    '2026-05-24',
+    2,
+    23677,
+    'CONFIRMED'
+  ),
+(
+    18,
+    49,
+    '2026-09-29',
+    3,
+    19236,
+    'CONFIRMED'
+  ),
+(
+    177,
+    139,
+    '2026-08-22',
+    3,
+    14151,
+    'PENDING'
+  ),
+(
+    142,
+    290,
+    '2026-09-27',
+    4,
+    42385,
+    'CONFIRMED'
+  ),
+(
+    105,
+    278,
+    '2026-09-03',
+    3,
+    23048,
+    'CANCELLED'
+  ),
+(
+    182,
+    51,
+    '2026-06-18',
+    4,
+    21454,
+    'CONFIRMED'
+  ),
+(
+    193,
+    78,
+    '2026-09-08',
+    2,
+    13869,
+    'PENDING'
+  ),
+(
+    44,
+    124,
+    '2026-08-16',
+    1,
+    29757,
+    'CANCELLED'
+  ),
+(
+    160,
+    67,
+    '2026-10-19',
+    4,
+    38030,
+    'PENDING'
+  ),
+(
+    124,
+    231,
+    '2026-09-30',
+    2,
+    29959,
+    'CONFIRMED'
+  ),
+(
+    97,
+    156,
+    '2026-07-20',
+    3,
+    46513,
+    'CANCELLED'
+  ),
+(
+    16,
+    99,
+    '2026-06-26',
+    5,
+    4748,
+    'CANCELLED'
+  ),
+(
+    158,
+    64,
+    '2026-06-02',
+    3,
+    9954,
+    'CONFIRMED'
+  ),
+(
+    199,
+    205,
+    '2026-07-27',
+    2,
+    19907,
+    'CANCELLED'
+  ),
+(
+    102,
+    252,
+    '2026-06-29',
+    1,
+    5806,
+    'CANCELLED'
+  ),
+(
+    183,
+    153,
+    '2026-07-10',
+    5,
+    33631,
+    'PENDING'
+  ),
+(
+    82,
+    259,
+    '2026-10-21',
+    3,
+    43977,
+    'CANCELLED'
+  ),
+(
+    182,
+    244,
+    '2026-05-11',
+    3,
+    24098,
+    'CANCELLED'
+  ),
+(
+    143,
+    93,
+    '2026-09-28',
+    1,
+    2515,
+    'CONFIRMED'
+  ),
+(
+    79,
+    160,
+    '2026-10-15',
+    1,
+    28961,
+    'PENDING'
+  ),
+(
+    53,
+    59,
+    '2026-09-24',
+    4,
+    19318,
+    'CANCELLED'
+  ),
+(
+    112,
+    65,
+    '2026-06-27',
+    3,
+    36438,
+    'CONFIRMED'
+  ),
+(
+    110,
+    44,
+    '2026-07-24',
+    3,
+    47707,
+    'CONFIRMED'
+  ),
+(
+    182,
+    115,
+    '2026-10-07',
+    1,
+    22979,
+    'PENDING'
+  ),
+(
+    175,
+    8,
+    '2026-10-21',
+    3,
+    11814,
+    'CANCELLED'
+  ),
+(
+    72,
+    30,
+    '2026-09-17',
+    4,
+    17610,
+    'CONFIRMED'
+  ),
+(
+    166,
+    92,
+    '2026-09-07',
+    1,
+    38473,
+    'CANCELLED'
+  ),
+(
+    97,
+    60,
+    '2026-08-11',
+    3,
+    49873,
+    'CONFIRMED'
+  ),
+(
+    122,
+    252,
+    '2026-09-10',
+    1,
+    44293,
+    'PENDING'
+  ),
+(
+    113,
+    111,
+    '2026-05-09',
+    3,
+    26780,
+    'PENDING'
+  ),
+(
+    133,
+    132,
+    '2026-10-15',
+    1,
+    2144,
+    'CANCELLED'
+  ),
+(
+    164,
+    229,
+    '2026-10-17',
+    5,
+    32113,
+    'CANCELLED'
+  ),
+(
+    145,
+    205,
+    '2026-08-14',
+    4,
+    34630,
+    'PENDING'
+  ),
+(
+    170,
+    160,
+    '2026-09-16',
+    3,
+    10606,
+    'CONFIRMED'
+  ),
+(
+    140,
+    271,
+    '2026-07-28',
+    4,
+    8870,
+    'CONFIRMED'
+  ),
+(
+    131,
+    100,
+    '2026-06-16',
+    4,
+    30245,
+    'PENDING'
+  ),
+(
+    199,
+    15,
+    '2026-07-02',
+    3,
+    44772,
+    'PENDING'
+  ),
+(
+    191,
+    277,
+    '2026-09-11',
+    1,
+    42118,
+    'CANCELLED'
+  ),
+(
+    156,
+    199,
+    '2026-09-28',
+    1,
+    19576,
+    'PENDING'
+  ),
+(
+    182,
+    116,
+    '2026-10-04',
+    4,
+    24214,
+    'CANCELLED'
+  ),
+(
+    173,
+    103,
+    '2026-07-29',
+    1,
+    45765,
+    'CANCELLED'
+  ),
+(
+    148,
+    236,
+    '2026-08-20',
+    3,
+    12845,
+    'PENDING'
+  ),
+(
+    52,
+    187,
+    '2026-05-27',
+    5,
+    43745,
+    'PENDING'
+  ),
+(
+    151,
+    178,
+    '2026-08-19',
+    4,
+    18644,
+    'PENDING'
+  ),
+(
+    56,
+    131,
+    '2026-06-08',
+    1,
+    40918,
+    'CANCELLED'
+  ),
+(
+    93,
+    229,
+    '2026-09-28',
+    1,
+    4073,
+    'CONFIRMED'
+  ),
+(
+    125,
+    47,
+    '2026-10-13',
+    4,
+    17130,
+    'PENDING'
+  ),
+(
+    152,
+    84,
+    '2026-07-13',
+    4,
+    28044,
+    'CONFIRMED'
+  ),
+(
+    14,
+    169,
+    '2026-05-27',
+    4,
+    49285,
+    'CANCELLED'
+  ),
+(
+    128,
+    240,
+    '2026-05-04',
+    1,
+    35741,
+    'CONFIRMED'
+  ),
+(
+    14,
+    172,
+    '2026-06-03',
+    2,
+    42283,
+    'CONFIRMED'
+  ),
+(
+    8,
+    233,
+    '2026-07-22',
+    5,
+    7949,
+    'CONFIRMED'
+  ),
+(
+    123,
+    46,
+    '2026-08-05',
+    3,
+    30855,
+    'CONFIRMED'
+  ),
+(
+    36,
+    117,
+    '2026-07-30',
+    1,
+    17276,
+    'CANCELLED'
+  ),
+(
+    182,
+    262,
+    '2026-09-02',
+    3,
+    37499,
+    'CANCELLED'
+  ),
+(
+    41,
+    67,
+    '2026-05-11',
+    4,
+    47605,
+    'CONFIRMED'
+  ),
+(
+    93,
+    238,
+    '2026-10-09',
+    1,
+    8399,
+    'PENDING'
+  ),
+(
+    125,
+    27,
+    '2026-06-22',
+    5,
+    41649,
+    'CONFIRMED'
+  ),
+(
+    11,
+    154,
+    '2026-10-01',
+    4,
+    40372,
+    'PENDING'
+  ),
+(
+    7,
+    178,
+    '2026-10-11',
+    5,
+    40266,
+    'PENDING'
+  ),
+(
+    163,
+    46,
+    '2026-06-11',
+    4,
+    34512,
+    'PENDING'
+  ),
+(
+    199,
+    30,
+    '2026-07-06',
+    4,
+    40298,
+    'PENDING'
+  ),
+(
+    146,
+    194,
+    '2026-08-23',
+    5,
+    29000,
+    'PENDING'
+  ),
+(
+    5,
+    196,
+    '2026-09-18',
+    5,
+    48679,
+    'PENDING'
+  ),
+(
+    114,
+    215,
+    '2026-06-15',
+    5,
+    49691,
+    'CONFIRMED'
+  ),
+(
+    16,
+    178,
+    '2026-08-20',
+    5,
+    35725,
+    'CANCELLED'
+  ),
+(
+    132,
+    174,
+    '2026-06-07',
+    1,
+    40343,
+    'CANCELLED'
+  ),
+(
+    196,
+    278,
+    '2026-05-08',
+    4,
+    9976,
+    'CANCELLED'
+  ),
+(
+    112,
+    180,
+    '2026-06-08',
+    2,
+    23581,
+    'CONFIRMED'
+  ),
+(
+    185,
+    229,
+    '2026-08-07',
+    5,
+    42491,
+    'CONFIRMED'
+  ),
+(
+    60,
+    88,
+    '2026-06-15',
+    5,
+    8134,
+    'CANCELLED'
+  ),
+(
+    107,
+    17,
+    '2026-07-07',
+    2,
+    9933,
+    'PENDING'
+  ),
+(
+    189,
+    46,
+    '2026-06-26',
+    5,
+    37693,
+    'CONFIRMED'
+  ),
+(
+    73,
+    44,
+    '2026-07-25',
+    5,
+    25526,
+    'CONFIRMED'
+  );
+
+
+INSERT INTO payments (booking_id, payment_id, amount, status)
+VALUES (
+      1,
+      'pay_961041f2593f',
+      23212,
+      'SUCCESS'
+    ),
+(
+      3,
+      'pay_eb3143a2a939',
+      24564,
+      'SUCCESS'
+    ),
+(
+      7,
+      'pay_9e9f402823f3',
+      24389,
+      'SUCCESS'
+    ),
+(
+      8,
+      'pay_be1c9d9988f6',
+      22624,
+      'SUCCESS'
+    ),
+(
+      9,
+      'pay_11539bd48ed7',
+      7001,
+      'SUCCESS'
+    ),
+(
+      11,
+      'pay_dab23c88de47',
+      33065,
+      'SUCCESS'
+    ),
+(
+      12,
+      'pay_40aeb9f063b9',
+      16218,
+      'SUCCESS'
+    ),
+(
+      14,
+      'pay_285aa204e472',
+      33692,
+      'SUCCESS'
+    ),
+(
+      15,
+      'pay_fbb54158ba92',
+      16281,
+      'SUCCESS'
+    ),
+(
+      17,
+      'pay_9d1eeb83e117',
+      25345,
+      'SUCCESS'
+    ),
+(
+      18,
+      'pay_8394ff2b885b',
+      41816,
+      'SUCCESS'
+    ),
+(
+      22,
+      'pay_186e44563543',
+      20116,
+      'SUCCESS'
+    ),
+(
+      23,
+      'pay_001b9aad47f7',
+      21896,
+      'SUCCESS'
+    ),
+(
+      24,
+      'pay_739d273a7c6d',
+      29431,
+      'SUCCESS'
+    ),
+(
+      25,
+      'pay_518caa24ad5f',
+      11035,
+      'SUCCESS'
+    ),
+(
+      27,
+      'pay_e2dc4718851d',
+      14943,
+      'SUCCESS'
+    ),
+(
+      28,
+      'pay_f0561a0e2897',
+      39893,
+      'SUCCESS'
+    ),
+(
+      29,
+      'pay_886636b407b3',
+      31269,
+      'SUCCESS'
+    ),
+(
+      35,
+      'pay_bed5fd3fa9c1',
+      21200,
+      'SUCCESS'
+    ),
+(
+      36,
+      'pay_2a472556d58e',
+      36017,
+      'SUCCESS'
+    ),
+(
+      38,
+      'pay_c0e4bfb1d6b2',
+      43642,
+      'SUCCESS'
+    ),
+(
+      39,
+      'pay_a5a7bbd1e0c8',
+      16224,
+      'SUCCESS'
+    ),
+(
+      40,
+      'pay_855ec36e2b42',
+      37139,
+      'SUCCESS'
+    ),
+(
+      43,
+      'pay_1290be46242f',
+      49010,
+      'SUCCESS'
+    ),
+(
+      47,
+      'pay_9ca575623095',
+      10555,
+      'SUCCESS'
+    ),
+(
+      48,
+      'pay_40f111c30a3c',
+      40291,
+      'SUCCESS'
+    ),
+(
+      49,
+      'pay_8fc06fa3ddef',
+      39088,
+      'SUCCESS'
+    ),
+(
+      51,
+      'pay_d4fb2a9538f4',
+      9787,
+      'SUCCESS'
+    ),
+(
+      52,
+      'pay_629bbc341eec',
+      22079,
+      'SUCCESS'
+    ),
+(
+      54,
+      'pay_202a2bb54f80',
+      18204,
+      'SUCCESS'
+    ),
+(
+      57,
+      'pay_3c65945d9048',
+      31042,
+      'SUCCESS'
+    ),
+(
+      58,
+      'pay_ba589400f055',
+      37704,
+      'SUCCESS'
+    ),
+(
+      60,
+      'pay_f68a2de70dbb',
+      40433,
+      'SUCCESS'
+    ),
+(
+      64,
+      'pay_3074fe84023d',
+      8492,
+      'SUCCESS'
+    ),
+(
+      65,
+      'pay_f2524350c6de',
+      17665,
+      'SUCCESS'
+    ),
+(
+      67,
+      'pay_560b85978037',
+      4914,
+      'SUCCESS'
+    ),
+(
+      69,
+      'pay_bea6c4787f83',
+      11715,
+      'SUCCESS'
+    ),
+(
+      74,
+      'pay_0b71928a3d32',
+      32388,
+      'SUCCESS'
+    ),
+(
+      75,
+      'pay_e7da81c4eabc',
+      41155,
+      'SUCCESS'
+    ),
+(
+      76,
+      'pay_847b01396655',
+      24067,
+      'SUCCESS'
+    ),
+(
+      79,
+      'pay_e0018778560d',
+      1380,
+      'SUCCESS'
+    ),
+(
+      81,
+      'pay_8320907aa831',
+      29189,
+      'SUCCESS'
+    ),
+(
+      85,
+      'pay_0ebcb6dc3188',
+      22047,
+      'SUCCESS'
+    ),
+(
+      86,
+      'pay_96bdb5aa4937',
+      21135,
+      'SUCCESS'
+    ),
+(
+      88,
+      'pay_0b10f0b23970',
+      39434,
+      'SUCCESS'
+    ),
+(
+      90,
+      'pay_b50cd02da23b',
+      7649,
+      'SUCCESS'
+    ),
+(
+      92,
+      'pay_c213bab5a828',
+      32643,
+      'SUCCESS'
+    ),
+(
+      94,
+      'pay_30a5b189ea94',
+      48649,
+      'SUCCESS'
+    ),
+(
+      96,
+      'pay_083f003df407',
+      34139,
+      'SUCCESS'
+    ),
+(
+      99,
+      'pay_7c541d565472',
+      31947,
+      'SUCCESS'
+    ),
+(
+      100,
+      'pay_ffd4031c665b',
+      38445,
+      'SUCCESS'
+    ),
+(
+      102,
+      'pay_dc92fca383b6',
+      20333,
+      'SUCCESS'
+    ),
+(
+      103,
+      'pay_dae3cabd4419',
+      24915,
+      'SUCCESS'
+    ),
+(
+      105,
+      'pay_25c11b9a982d',
+      4479,
+      'SUCCESS'
+    ),
+(
+      106,
+      'pay_7ed6241fe2b3',
+      29520,
+      'SUCCESS'
+    ),
+(
+      107,
+      'pay_4f9eed20a7cb',
+      6591,
+      'SUCCESS'
+    ),
+(
+      108,
+      'pay_65cc1f0737a6',
+      41427,
+      'SUCCESS'
+    ),
+(
+      110,
+      'pay_1321e16fadf4',
+      41524,
+      'SUCCESS'
+    ),
+(
+      113,
+      'pay_26e8e9090d9f',
+      48342,
+      'SUCCESS'
+    ),
+(
+      119,
+      'pay_3a8757352c0f',
+      36800,
+      'SUCCESS'
+    ),
+(
+      121,
+      'pay_b5b61dfe4e5b',
+      39640,
+      'SUCCESS'
+    ),
+(
+      123,
+      'pay_bd1693dc6916',
+      40526,
+      'SUCCESS'
+    ),
+(
+      124,
+      'pay_53ea9791a44f',
+      2386,
+      'SUCCESS'
+    ),
+(
+      125,
+      'pay_f069c7f4c8a6',
+      49761,
+      'SUCCESS'
+    ),
+(
+      127,
+      'pay_46d84b2739d9',
+      40751,
+      'SUCCESS'
+    ),
+(
+      129,
+      'pay_efc8ddbbb92f',
+      3814,
+      'SUCCESS'
+    ),
+(
+      130,
+      'pay_7d589a8cf151',
+      4404,
+      'SUCCESS'
+    ),
+(
+      131,
+      'pay_a8ebc9b8ce43',
+      6675,
+      'SUCCESS'
+    ),
+(
+      134,
+      'pay_19a2ea73ab17',
+      34646,
+      'SUCCESS'
+    ),
+(
+      135,
+      'pay_0ec7d4742481',
+      30793,
+      'SUCCESS'
+    ),
+(
+      136,
+      'pay_f62af364b16d',
+      27739,
+      'SUCCESS'
+    ),
+(
+      137,
+      'pay_7441f8f9134b',
+      10607,
+      'SUCCESS'
+    ),
+(
+      138,
+      'pay_c76bdfbdf8d7',
+      19246,
+      'SUCCESS'
+    ),
+(
+      139,
+      'pay_ddc52597289e',
+      18086,
+      'SUCCESS'
+    ),
+(
+      140,
+      'pay_b2c8e480dcbe',
+      22680,
+      'SUCCESS'
+    ),
+(
+      141,
+      'pay_afb600b3cf95',
+      38720,
+      'SUCCESS'
+    ),
+(
+      144,
+      'pay_5654d420316b',
+      48078,
+      'SUCCESS'
+    ),
+(
+      148,
+      'pay_bf2ea37535b3',
+      44805,
+      'SUCCESS'
+    ),
+(
+      150,
+      'pay_1467b3e94bea',
+      47147,
+      'SUCCESS'
+    ),
+(
+      151,
+      'pay_ec3e188613ef',
+      25561,
+      'SUCCESS'
+    ),
+(
+      154,
+      'pay_fbf3af2efd07',
+      8604,
+      'SUCCESS'
+    ),
+(
+      156,
+      'pay_4801932c8d73',
+      7961,
+      'SUCCESS'
+    ),
+(
+      157,
+      'pay_8c8e3f526c7e',
+      36721,
+      'SUCCESS'
+    ),
+(
+      159,
+      'pay_c694e576b9d7',
+      14424,
+      'SUCCESS'
+    ),
+(
+      161,
+      'pay_d779f9685cc0',
+      6737,
+      'SUCCESS'
+    ),
+(
+      162,
+      'pay_c72456eaa6a3',
+      23222,
+      'SUCCESS'
+    ),
+(
+      165,
+      'pay_7cbf08e11e7c',
+      30247,
+      'SUCCESS'
+    ),
+(
+      167,
+      'pay_49c852c03a6e',
+      40523,
+      'SUCCESS'
+    ),
+(
+      169,
+      'pay_fdba6ab50343',
+      36309,
+      'SUCCESS'
+    ),
+(
+      170,
+      'pay_18bfe9944192',
+      30305,
+      'SUCCESS'
+    ),
+(
+      173,
+      'pay_fbf3cd48c657',
+      9109,
+      'SUCCESS'
+    ),
+(
+      174,
+      'pay_eff435a70933',
+      14969,
+      'SUCCESS'
+    ),
+(
+      176,
+      'pay_ca37069d2428',
+      11998,
+      'SUCCESS'
+    ),
+(
+      177,
+      'pay_da9a8492166c',
+      35149,
+      'SUCCESS'
+    ),
+(
+      179,
+      'pay_9083e3cce233',
+      15801,
+      'SUCCESS'
+    ),
+(
+      180,
+      'pay_cd332c6c9b3f',
+      22841,
+      'SUCCESS'
+    ),
+(
+      187,
+      'pay_748d76750de7',
+      41510,
+      'SUCCESS'
+    ),
+(
+      188,
+      'pay_c04459624c85',
+      26401,
+      'SUCCESS'
+    ),
+(
+      189,
+      'pay_b35a0d9a8584',
+      45498,
+      'SUCCESS'
+    ),
+(
+      190,
+      'pay_f83eca6b6828',
+      33862,
+      'SUCCESS'
+    ),
+(
+      191,
+      'pay_0249913e14eb',
+      27280,
+      'SUCCESS'
+    ),
+(
+      192,
+      'pay_57bf4cbc022d',
+      7274,
+      'SUCCESS'
+    ),
+(
+      193,
+      'pay_e0286ae4f0ce',
+      18153,
+      'SUCCESS'
+    ),
+(
+      195,
+      'pay_b2419194b311',
+      28873,
+      'SUCCESS'
+    ),
+(
+      196,
+      'pay_c5e2c8b2a261',
+      39931,
+      'SUCCESS'
+    ),
+(
+      197,
+      'pay_f2b0d6b5142e',
+      6352,
+      'SUCCESS'
+    ),
+(
+      198,
+      'pay_f706cb1fbb8a',
+      8375,
+      'SUCCESS'
+    ),
+(
+      202,
+      'pay_a0cc80b95e94',
+      31808,
+      'SUCCESS'
+    ),
+(
+      203,
+      'pay_7feb722ac692',
+      35048,
+      'SUCCESS'
+    ),
+(
+      205,
+      'pay_2083acc3e4d2',
+      8589,
+      'SUCCESS'
+    ),
+(
+      208,
+      'pay_53ce4bf900df',
+      7493,
+      'SUCCESS'
+    ),
+(
+      215,
+      'pay_09a71d6cce91',
+      10697,
+      'SUCCESS'
+    ),
+(
+      218,
+      'pay_5669486d6188',
+      31552,
+      'SUCCESS'
+    ),
+(
+      220,
+      'pay_f273ec1200e6',
+      15900,
+      'SUCCESS'
+    ),
+(
+      222,
+      'pay_9d546b946beb',
+      33504,
+      'SUCCESS'
+    ),
+(
+      224,
+      'pay_b0cc278ec72a',
+      17818,
+      'SUCCESS'
+    ),
+(
+      225,
+      'pay_62687c5bc910',
+      40413,
+      'SUCCESS'
+    ),
+(
+      226,
+      'pay_5ce1b19ba1f6',
+      19608,
+      'SUCCESS'
+    ),
+(
+      227,
+      'pay_f319cc23651e',
+      46895,
+      'SUCCESS'
+    ),
+(
+      234,
+      'pay_b3ff622776b0',
+      48186,
+      'SUCCESS'
+    ),
+(
+      235,
+      'pay_64f50040c2ab',
+      9992,
+      'SUCCESS'
+    ),
+(
+      236,
+      'pay_60229a4bdf59',
+      7219,
+      'SUCCESS'
+    ),
+(
+      237,
+      'pay_2d0d56c46489',
+      14724,
+      'SUCCESS'
+    ),
+(
+      244,
+      'pay_ded3ec5c5ea7',
+      29373,
+      'SUCCESS'
+    ),
+(
+      245,
+      'pay_2a6527e17abf',
+      3824,
+      'SUCCESS'
+    ),
+(
+      246,
+      'pay_78652bfcd4f2',
+      21972,
+      'SUCCESS'
+    ),
+(
+      249,
+      'pay_4c4e1d818a22',
+      38404,
+      'SUCCESS'
+    ),
+(
+      250,
+      'pay_c64bde0acc96',
+      46803,
+      'SUCCESS'
+    ),
+(
+      251,
+      'pay_9ea7ea74fb88',
+      20102,
+      'SUCCESS'
+    ),
+(
+      252,
+      'pay_88c2efff9b40',
+      34135,
+      'SUCCESS'
+    ),
+(
+      255,
+      'pay_948627969325',
+      3540,
+      'SUCCESS'
+    ),
+(
+      257,
+      'pay_1083da3274cc',
+      17706,
+      'SUCCESS'
+    ),
+(
+      258,
+      'pay_7aa10716b86d',
+      36499,
+      'SUCCESS'
+    ),
+(
+      259,
+      'pay_da251d2aefe7',
+      45257,
+      'SUCCESS'
+    ),
+(
+      260,
+      'pay_a9b2c0d9e0b1',
+      10815,
+      'SUCCESS'
+    ),
+(
+      261,
+      'pay_52b01f7cc23a',
+      30054,
+      'SUCCESS'
+    ),
+(
+      262,
+      'pay_08a5d387fed5',
+      33608,
+      'SUCCESS'
+    ),
+(
+      264,
+      'pay_f2f74d0d5f3b',
+      26183,
+      'SUCCESS'
+    ),
+(
+      265,
+      'pay_8a31b396c41c',
+      37510,
+      'SUCCESS'
+    ),
+(
+      267,
+      'pay_92b71b321752',
+      5468,
+      'SUCCESS'
+    ),
+(
+      270,
+      'pay_e5e4d8b38391',
+      42645,
+      'SUCCESS'
+    ),
+(
+      271,
+      'pay_f64d1d1da71f',
+      33419,
+      'SUCCESS'
+    ),
+(
+      273,
+      'pay_a78760f52fde',
+      13567,
+      'SUCCESS'
+    ),
+(
+      277,
+      'pay_ea0259d08a4c',
+      5044,
+      'SUCCESS'
+    ),
+(
+      280,
+      'pay_4de0ec115afb',
+      48979,
+      'SUCCESS'
+    ),
+(
+      282,
+      'pay_7de7af4f2b1d',
+      45233,
+      'SUCCESS'
+    ),
+(
+      284,
+      'pay_c6f3e32c337d',
+      7482,
+      'SUCCESS'
+    ),
+(
+      286,
+      'pay_77ececf61665',
+      11477,
+      'SUCCESS'
+    ),
+(
+      287,
+      'pay_b7906589fbf6',
+      15912,
+      'SUCCESS'
+    ),
+(
+      288,
+      'pay_d4f2a7f47a40',
+      20309,
+      'SUCCESS'
+    ),
+(
+      289,
+      'pay_686cc4b4a7b9',
+      8350,
+      'SUCCESS'
+    ),
+(
+      290,
+      'pay_d28137b3c2e6',
+      39080,
+      'SUCCESS'
+    ),
+(
+      291,
+      'pay_52411793a833',
+      42867,
+      'SUCCESS'
+    ),
+(
+      296,
+      'pay_df2f4bcd713c',
+      6856,
+      'SUCCESS'
+    ),
+(
+      300,
+      'pay_e0c76ac36c37',
+      20267,
+      'SUCCESS'
+    ),
+(
+      301,
+      'pay_88a4586d90a5',
+      30349,
+      'SUCCESS'
+    ),
+(
+      304,
+      'pay_6dd38ea8077d',
+      1557,
+      'SUCCESS'
+    ),
+(
+      306,
+      'pay_b7de8e2955c9',
+      39816,
+      'SUCCESS'
+    ),
+(
+      307,
+      'pay_e8b044154243',
+      47534,
+      'SUCCESS'
+    ),
+(
+      311,
+      'pay_599bf60c23d9',
+      34888,
+      'SUCCESS'
+    ),
+(
+      313,
+      'pay_fd0ed0e7020c',
+      44267,
+      'SUCCESS'
+    ),
+(
+      316,
+      'pay_053f36970a65',
+      11511,
+      'SUCCESS'
+    ),
+(
+      317,
+      'pay_05b596d81b19',
+      18905,
+      'SUCCESS'
+    ),
+(
+      318,
+      'pay_1f404ba3a773',
+      6612,
+      'SUCCESS'
+    ),
+(
+      321,
+      'pay_6e2a1f2927b0',
+      13939,
+      'SUCCESS'
+    ),
+(
+      322,
+      'pay_0ccc0d59a718',
+      47464,
+      'SUCCESS'
+    ),
+(
+      323,
+      'pay_92f066eaff1b',
+      40219,
+      'SUCCESS'
+    ),
+(
+      324,
+      'pay_5f6a06b7f230',
+      35499,
+      'SUCCESS'
+    ),
+(
+      325,
+      'pay_6edd1e5f287f',
+      33191,
+      'SUCCESS'
+    ),
+(
+      327,
+      'pay_d181e7f5273d',
+      2484,
+      'SUCCESS'
+    ),
+(
+      329,
+      'pay_a4a406cf9254',
+      11294,
+      'SUCCESS'
+    ),
+(
+      330,
+      'pay_985471c655ed',
+      2774,
+      'SUCCESS'
+    ),
+(
+      332,
+      'pay_d842425f53ef',
+      29652,
+      'SUCCESS'
+    ),
+(
+      333,
+      'pay_b2b3fd0f934d',
+      12526,
+      'SUCCESS'
+    ),
+(
+      335,
+      'pay_4f5aec85a2ad',
+      26860,
+      'SUCCESS'
+    ),
+(
+      336,
+      'pay_d056e248f6cb',
+      3118,
+      'SUCCESS'
+    ),
+(
+      337,
+      'pay_a3f7c1181c1f',
+      22550,
+      'SUCCESS'
+    ),
+(
+      339,
+      'pay_2db84861f770',
+      38637,
+      'SUCCESS'
+    ),
+(
+      341,
+      'pay_29377d9f86a8',
+      1561,
+      'SUCCESS'
+    ),
+(
+      344,
+      'pay_46c020e96baa',
+      17143,
+      'SUCCESS'
+    ),
+(
+      347,
+      'pay_78628c2c53ca',
+      30859,
+      'SUCCESS'
+    ),
+(
+      348,
+      'pay_fc629c582c2a',
+      18360,
+      'SUCCESS'
+    ),
+(
+      349,
+      'pay_db71d4fe7ebe',
+      8901,
+      'SUCCESS'
+    ),
+(
+      352,
+      'pay_39bfad143911',
+      5326,
+      'SUCCESS'
+    ),
+(
+      355,
+      'pay_507de38591e5',
+      10826,
+      'SUCCESS'
+    ),
+(
+      357,
+      'pay_6b5d7cf483e5',
+      36749,
+      'SUCCESS'
+    ),
+(
+      360,
+      'pay_2f76eb25c323',
+      33583,
+      'SUCCESS'
+    ),
+(
+      361,
+      'pay_963b0a73dfdb',
+      15312,
+      'SUCCESS'
+    ),
+(
+      362,
+      'pay_c3029a3c28fc',
+      12564,
+      'SUCCESS'
+    ),
+(
+      363,
+      'pay_3c94b4e6840c',
+      3717,
+      'SUCCESS'
+    ),
+(
+      366,
+      'pay_3d6150051205',
+      34214,
+      'SUCCESS'
+    ),
+(
+      367,
+      'pay_3fceb897ff65',
+      11053,
+      'SUCCESS'
+    ),
+(
+      369,
+      'pay_e4fa7ff274f5',
+      24984,
+      'SUCCESS'
+    ),
+(
+      370,
+      'pay_e42b2740596f',
+      47647,
+      'SUCCESS'
+    ),
+(
+      372,
+      'pay_516c2e828f0b',
+      47363,
+      'SUCCESS'
+    ),
+(
+      374,
+      'pay_94a7186fa7d4',
+      45820,
+      'SUCCESS'
+    ),
+(
+      375,
+      'pay_cc06af56df39',
+      5228,
+      'SUCCESS'
+    ),
+(
+      376,
+      'pay_ac421b73b854',
+      15572,
+      'SUCCESS'
+    ),
+(
+      380,
+      'pay_ded614fde836',
+      36811,
+      'SUCCESS'
+    ),
+(
+      382,
+      'pay_19ea66785fca',
+      6285,
+      'SUCCESS'
+    ),
+(
+      385,
+      'pay_8ad6a3dfebc6',
+      44183,
+      'SUCCESS'
+    ),
+(
+      386,
+      'pay_54af7335f6ab',
+      47977,
+      'SUCCESS'
+    ),
+(
+      387,
+      'pay_281bea22c591',
+      22740,
+      'SUCCESS'
+    ),
+(
+      388,
+      'pay_5533cd15557b',
+      40136,
+      'SUCCESS'
+    ),
+(
+      389,
+      'pay_3e5991b48756',
+      34165,
+      'SUCCESS'
+    ),
+(
+      390,
+      'pay_d6cb24e4ec70',
+      13399,
+      'SUCCESS'
+    ),
+(
+      391,
+      'pay_01722b90416a',
+      27080,
+      'SUCCESS'
+    ),
+(
+      393,
+      'pay_375d86eb7ac2',
+      12011,
+      'SUCCESS'
+    ),
+(
+      394,
+      'pay_73ff75862c9c',
+      9773,
+      'SUCCESS'
+    ),
+(
+      395,
+      'pay_604c6df39506',
+      47701,
+      'SUCCESS'
+    ),
+(
+      402,
+      'pay_eb7be63f2963',
+      29210,
+      'SUCCESS'
+    ),
+(
+      403,
+      'pay_9f916ce38ba7',
+      8094,
+      'SUCCESS'
+    ),
+(
+      405,
+      'pay_3d62b245db80',
+      35010,
+      'SUCCESS'
+    ),
+(
+      406,
+      'pay_262f09767ed3',
+      26988,
+      'SUCCESS'
+    ),
+(
+      408,
+      'pay_bb97cc433abe',
+      9976,
+      'SUCCESS'
+    ),
+(
+      410,
+      'pay_a1c08bb82789',
+      13175,
+      'SUCCESS'
+    ),
+(
+      411,
+      'pay_ec49f70d2ef7',
+      27000,
+      'SUCCESS'
+    ),
+(
+      414,
+      'pay_7f1d6899d744',
+      35356,
+      'SUCCESS'
+    ),
+(
+      416,
+      'pay_88bd2e9802df',
+      47264,
+      'SUCCESS'
+    ),
+(
+      417,
+      'pay_c2f93c3929bf',
+      5245,
+      'SUCCESS'
+    ),
+(
+      419,
+      'pay_ad7b3fd295f6',
+      8729,
+      'SUCCESS'
+    ),
+(
+      420,
+      'pay_8d25abdb8e06',
+      22514,
+      'SUCCESS'
+    ),
+(
+      421,
+      'pay_e692ea015274',
+      41317,
+      'SUCCESS'
+    ),
+(
+      432,
+      'pay_be4b3efb8721',
+      25379,
+      'SUCCESS'
+    ),
+(
+      433,
+      'pay_de37870660de',
+      1065,
+      'SUCCESS'
+    ),
+(
+      439,
+      'pay_cb7631233c4f',
+      45726,
+      'SUCCESS'
+    ),
+(
+      440,
+      'pay_f1a164fe1d8f',
+      17058,
+      'SUCCESS'
+    ),
+(
+      445,
+      'pay_a24da38e2f1b',
+      23082,
+      'SUCCESS'
+    ),
+(
+      446,
+      'pay_3030817574e7',
+      41245,
+      'SUCCESS'
+    ),
+(
+      447,
+      'pay_e0cf651b8a6e',
+      1399,
+      'SUCCESS'
+    ),
+(
+      449,
+      'pay_76c05b2fd2d2',
+      35999,
+      'SUCCESS'
+    ),
+(
+      452,
+      'pay_ff0dc255d62a',
+      31204,
+      'SUCCESS'
+    ),
+(
+      454,
+      'pay_834cb3f3977a',
+      6355,
+      'SUCCESS'
+    ),
+(
+      458,
+      'pay_0481b8cc7a70',
+      46892,
+      'SUCCESS'
+    ),
+(
+      459,
+      'pay_910289ea5def',
+      11551,
+      'SUCCESS'
+    ),
+(
+      462,
+      'pay_6fd865ca0823',
+      30455,
+      'SUCCESS'
+    ),
+(
+      466,
+      'pay_ad4d913bbb99',
+      38832,
+      'SUCCESS'
+    ),
+(
+      467,
+      'pay_5f93eb8d1d32',
+      16441,
+      'SUCCESS'
+    ),
+(
+      468,
+      'pay_9e039ae3af0b',
+      41254,
+      'SUCCESS'
+    ),
+(
+      471,
+      'pay_5e29a800812f',
+      8420,
+      'SUCCESS'
+    ),
+(
+      473,
+      'pay_1d24d58aa6af',
+      46413,
+      'SUCCESS'
+    ),
+(
+      474,
+      'pay_dd5829fa21f5',
+      31103,
+      'SUCCESS'
+    ),
+(
+      475,
+      'pay_a4e76947f05e',
+      22938,
+      'SUCCESS'
+    ),
+(
+      476,
+      'pay_da8bae2a588e',
+      11485,
+      'SUCCESS'
+    ),
+(
+      478,
+      'pay_6defa340423f',
+      43521,
+      'SUCCESS'
+    ),
+(
+      482,
+      'pay_4e1027e8f6d2',
+      43568,
+      'SUCCESS'
+    ),
+(
+      484,
+      'pay_f624db4018a6',
+      11967,
+      'SUCCESS'
+    ),
+(
+      486,
+      'pay_21759895ad5f',
+      45064,
+      'SUCCESS'
+    ),
+(
+      488,
+      'pay_ccf707b97083',
+      2513,
+      'SUCCESS'
+    ),
+(
+      491,
+      'pay_301753afe174',
+      6706,
+      'SUCCESS'
+    ),
+(
+      495,
+      'pay_699f1ae2bbba',
+      14364,
+      'SUCCESS'
+    ),
+(
+      496,
+      'pay_ba5fa6d18104',
+      44301,
+      'SUCCESS'
+    ),
+(
+      498,
+      'pay_7df46d8e92f7',
+      42573,
+      'SUCCESS'
+    ),
+(
+      499,
+      'pay_337aa0815c19',
+      49940,
+      'SUCCESS'
+    ),
+(
+      500,
+      'pay_57d5b06926a6',
+      14363,
+      'SUCCESS'
+    );
+
+
+SELECT setval(
+  'bookings_id_seq',
+  COALESCE((SELECT MAX(id) FROM bookings), 1)
+);
+
+COMMIT;
