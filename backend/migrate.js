@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const db = require('./config/db');
 
-const schemaPath = path.resolve(__dirname, '..', 'schema.sql');
+const schemaPath = path.resolve(__dirname, './schema.sql');
 
 async function migrate() {
   try {
