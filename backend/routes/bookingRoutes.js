@@ -9,5 +9,3 @@ router.get('/user', getUserBookings);
 router.put('/:id/cancel', cancelBooking);
 
 module.exports = router;
-
-
